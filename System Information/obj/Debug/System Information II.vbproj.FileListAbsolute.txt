@@ -1,0 +1,112 @@
+C:\Documents and Settings\Administrator\My Documents\Downloads\Compressed\System_Inf211495642008\System Information II\bin\SystemInformation.exe.config
+C:\Documents and Settings\Administrator\My Documents\Downloads\Compressed\System_Inf211495642008\System Information II\bin\SystemInformation.exe
+C:\Documents and Settings\Administrator\My Documents\Downloads\Compressed\System_Inf211495642008\System Information II\bin\SystemInformation.pdb
+C:\Documents and Settings\Administrator\My Documents\Downloads\Compressed\System_Inf211495642008\System Information II\bin\SystemInformation.xml
+C:\Documents and Settings\Administrator\My Documents\Downloads\Compressed\System_Inf211495642008\System Information II\bin\ColorPicker.dll
+C:\Documents and Settings\Administrator\My Documents\Downloads\Compressed\System_Inf211495642008\System Information II\bin\ColorPicker.pdb
+C:\Documents and Settings\Administrator\My Documents\Downloads\Compressed\System_Inf211495642008\System Information II\bin\ColorPicker.xml
+C:\Documents and Settings\Administrator\My Documents\Downloads\Compressed\System_Inf211495642008\System Information II\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\My Documents\Downloads\Compressed\System_Inf211495642008\System Information II\obj\Debug\SystemInformation.Component.resources
+C:\Documents and Settings\Administrator\My Documents\Downloads\Compressed\System_Inf211495642008\System Information II\obj\Debug\SystemInformation.Drivers.resources
+C:\Documents and Settings\Administrator\My Documents\Downloads\Compressed\System_Inf211495642008\System Information II\obj\Debug\SystemInformation.EnvironmentVariables.resources
+C:\Documents and Settings\Administrator\My Documents\Downloads\Compressed\System_Inf211495642008\System Information II\obj\Debug\SystemInformation.EventViewer.resources
+C:\Documents and Settings\Administrator\My Documents\Downloads\Compressed\System_Inf211495642008\System Information II\obj\Debug\SystemInformation.FileTypes.resources
+C:\Documents and Settings\Administrator\My Documents\Downloads\Compressed\System_Inf211495642008\System Information II\obj\Debug\SystemInformation.Fonts.resources
+C:\Documents and Settings\Administrator\My Documents\Downloads\Compressed\System_Inf211495642008\System Information II\obj\Debug\SystemInformation.Win32Storage.resources
+C:\Documents and Settings\Administrator\My Documents\Downloads\Compressed\System_Inf211495642008\System Information II\obj\Debug\SystemInformation.Keyboard.resources
+C:\Documents and Settings\Administrator\My Documents\Downloads\Compressed\System_Inf211495642008\System Information II\obj\Debug\SystemInformation.Win32Hardware.resources
+C:\Documents and Settings\Administrator\My Documents\Downloads\Compressed\System_Inf211495642008\System Information II\obj\Debug\SystemInformation.MultimediaCodecs.resources
+C:\Documents and Settings\Administrator\My Documents\Downloads\Compressed\System_Inf211495642008\System Information II\obj\Debug\SystemInformation.PointingDevice.resources
+C:\Documents and Settings\Administrator\My Documents\Downloads\Compressed\System_Inf211495642008\System Information II\obj\Debug\SystemInformation.Ports.resources
+C:\Documents and Settings\Administrator\My Documents\Downloads\Compressed\System_Inf211495642008\System Information II\obj\Debug\SystemInformation.Processes.resources
+C:\Documents and Settings\Administrator\My Documents\Downloads\Compressed\System_Inf211495642008\System Information II\obj\Debug\SystemInformation.OemInformation.resources
+C:\Documents and Settings\Administrator\My Documents\Downloads\Compressed\System_Inf211495642008\System Information II\obj\Debug\SystemInformation.InstalledPrograms.resources
+C:\Documents and Settings\Administrator\My Documents\Downloads\Compressed\System_Inf211495642008\System Information II\obj\Debug\SystemInformation.Services.resources
+C:\Documents and Settings\Administrator\My Documents\Downloads\Compressed\System_Inf211495642008\System Information II\obj\Debug\SystemInformation.Shares.resources
+C:\Documents and Settings\Administrator\My Documents\Downloads\Compressed\System_Inf211495642008\System Information II\obj\Debug\SystemInformation.StartupPrograms.resources
+C:\Documents and Settings\Administrator\My Documents\Downloads\Compressed\System_Inf211495642008\System Information II\obj\Debug\SystemInformation.DateAndTime.resources
+C:\Documents and Settings\Administrator\My Documents\Downloads\Compressed\System_Inf211495642008\System Information II\obj\Debug\SystemInformation.UsbDevices.resources
+C:\Documents and Settings\Administrator\My Documents\Downloads\Compressed\System_Inf211495642008\System Information II\obj\Debug\SystemInformation.UserInformation.resources
+C:\Documents and Settings\Administrator\My Documents\Downloads\Compressed\System_Inf211495642008\System Information II\obj\Debug\SystemInformation.Desktop.resources
+C:\Documents and Settings\Administrator\My Documents\Downloads\Compressed\System_Inf211495642008\System Information II\obj\Debug\SystemInformation.Win32Memory.resources
+C:\Documents and Settings\Administrator\My Documents\Downloads\Compressed\System_Inf211495642008\System Information II\obj\Debug\SystemInformation.Win32Network.resources
+C:\Documents and Settings\Administrator\My Documents\Downloads\Compressed\System_Inf211495642008\System Information II\obj\Debug\SystemInformation.Win32System.resources
+C:\Documents and Settings\Administrator\My Documents\Downloads\Compressed\System_Inf211495642008\System Information II\obj\Debug\SystemInformation.Win32Users.resources
+C:\Documents and Settings\Administrator\My Documents\Downloads\Compressed\System_Inf211495642008\System Information II\obj\Debug\SystemInformation.SplashScreen.resources
+C:\Documents and Settings\Administrator\My Documents\Downloads\Compressed\System_Inf211495642008\System Information II\obj\Debug\SystemInformation.VisualStyles.resources
+C:\Documents and Settings\Administrator\My Documents\Downloads\Compressed\System_Inf211495642008\System Information II\obj\Debug\SystemInformation.SpecialFolders.resources
+C:\Documents and Settings\Administrator\My Documents\Downloads\Compressed\System_Inf211495642008\System Information II\obj\Debug\SystemInformation.Introduction.resources
+C:\Documents and Settings\Administrator\My Documents\Downloads\Compressed\System_Inf211495642008\System Information II\obj\Debug\SystemInformation.Video.resources
+C:\Documents and Settings\Administrator\My Documents\Downloads\Compressed\System_Inf211495642008\System Information II\obj\Debug\SystemInformation.Sound.resources
+C:\Documents and Settings\Administrator\My Documents\Downloads\Compressed\System_Inf211495642008\System Information II\obj\Debug\SystemInformation.Network.resources
+C:\Documents and Settings\Administrator\My Documents\Downloads\Compressed\System_Inf211495642008\System Information II\obj\Debug\SystemInformation.Drives.resources
+C:\Documents and Settings\Administrator\My Documents\Downloads\Compressed\System_Inf211495642008\System Information II\obj\Debug\SystemInformation.Computer.resources
+C:\Documents and Settings\Administrator\My Documents\Downloads\Compressed\System_Inf211495642008\System Information II\obj\Debug\SystemInformation.Bios.resources
+C:\Documents and Settings\Administrator\My Documents\Downloads\Compressed\System_Inf211495642008\System Information II\obj\Debug\SystemInformation.Cpu.resources
+C:\Documents and Settings\Administrator\My Documents\Downloads\Compressed\System_Inf211495642008\System Information II\obj\Debug\SystemInformation.OperatingSystem.resources
+C:\Documents and Settings\Administrator\My Documents\Downloads\Compressed\System_Inf211495642008\System Information II\obj\Debug\SystemInformation.MainForm.resources
+C:\Documents and Settings\Administrator\My Documents\Downloads\Compressed\System_Inf211495642008\System Information II\obj\Debug\SystemInformation.Resources.resources
+C:\Documents and Settings\Administrator\My Documents\Downloads\Compressed\System_Inf211495642008\System Information II\obj\Debug\SystemInformation.TaskPanelBase.resources
+C:\Documents and Settings\Administrator\My Documents\Downloads\Compressed\System_Inf211495642008\System Information II\obj\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Administrator\My Documents\Downloads\Compressed\System_Inf211495642008\System Information II\obj\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Administrator\My Documents\Downloads\Compressed\System_Inf211495642008\System Information II\obj\Debug\SystemInformation.exe
+C:\Documents and Settings\Administrator\My Documents\Downloads\Compressed\System_Inf211495642008\System Information II\obj\Debug\SystemInformation.xml
+C:\Documents and Settings\Administrator\My Documents\Downloads\Compressed\System_Inf211495642008\System Information II\obj\Debug\SystemInformation.pdb
+F:\all projects\my prj\System Information 2\System Information II\bin\SystemInformation.exe.config
+F:\all projects\my prj\System Information 2\System Information II\obj\Debug\SystemInformation.exe
+F:\all projects\my prj\System Information 2\System Information II\obj\Debug\SystemInformation.xml
+F:\all projects\my prj\System Information 2\System Information II\obj\Debug\SystemInformation.pdb
+F:\all projects\my prj\System Information 2\System Information II\bin\SystemInformation.exe
+F:\all projects\my prj\System Information 2\System Information II\bin\SystemInformation.pdb
+F:\all projects\my prj\System Information 2\System Information II\bin\SystemInformation.xml
+F:\all projects\my prj\System Information 2\System Information II\bin\ColorPicker.dll
+F:\all projects\my prj\System Information 2\System Information II\bin\ColorPicker.pdb
+F:\all projects\my prj\System Information 2\System Information II\bin\ColorPicker.xml
+F:\all projects\my prj\System Information 2\System Information II\obj\Debug\ResolveAssemblyReference.cache
+F:\all projects\my prj\System Information 2\System Information II\obj\Debug\SystemInformation.Component.resources
+F:\all projects\my prj\System Information 2\System Information II\obj\Debug\SystemInformation.Drivers.resources
+F:\all projects\my prj\System Information 2\System Information II\obj\Debug\SystemInformation.EnvironmentVariables.resources
+F:\all projects\my prj\System Information 2\System Information II\obj\Debug\SystemInformation.EventViewer.resources
+F:\all projects\my prj\System Information 2\System Information II\obj\Debug\SystemInformation.FileTypes.resources
+F:\all projects\my prj\System Information 2\System Information II\obj\Debug\SystemInformation.Fonts.resources
+F:\all projects\my prj\System Information 2\System Information II\obj\Debug\SystemInformation.Win32Storage.resources
+F:\all projects\my prj\System Information 2\System Information II\obj\Debug\SystemInformation.Keyboard.resources
+F:\all projects\my prj\System Information 2\System Information II\obj\Debug\SystemInformation.Win32Hardware.resources
+F:\all projects\my prj\System Information 2\System Information II\obj\Debug\SystemInformation.MultimediaCodecs.resources
+F:\all projects\my prj\System Information 2\System Information II\obj\Debug\SystemInformation.PointingDevice.resources
+F:\all projects\my prj\System Information 2\System Information II\obj\Debug\SystemInformation.Ports.resources
+F:\all projects\my prj\System Information 2\System Information II\obj\Debug\SystemInformation.Processes.resources
+F:\all projects\my prj\System Information 2\System Information II\obj\Debug\SystemInformation.OemInformation.resources
+F:\all projects\my prj\System Information 2\System Information II\obj\Debug\SystemInformation.InstalledPrograms.resources
+F:\all projects\my prj\System Information 2\System Information II\obj\Debug\SystemInformation.Services.resources
+F:\all projects\my prj\System Information 2\System Information II\obj\Debug\SystemInformation.Shares.resources
+F:\all projects\my prj\System Information 2\System Information II\obj\Debug\SystemInformation.StartupPrograms.resources
+F:\all projects\my prj\System Information 2\System Information II\obj\Debug\SystemInformation.DateAndTime.resources
+F:\all projects\my prj\System Information 2\System Information II\obj\Debug\SystemInformation.UsbDevices.resources
+F:\all projects\my prj\System Information 2\System Information II\obj\Debug\SystemInformation.UserInformation.resources
+F:\all projects\my prj\System Information 2\System Information II\obj\Debug\SystemInformation.Desktop.resources
+F:\all projects\my prj\System Information 2\System Information II\obj\Debug\SystemInformation.Win32Memory.resources
+F:\all projects\my prj\System Information 2\System Information II\obj\Debug\SystemInformation.Win32Network.resources
+F:\all projects\my prj\System Information 2\System Information II\obj\Debug\SystemInformation.Win32System.resources
+F:\all projects\my prj\System Information 2\System Information II\obj\Debug\SystemInformation.Win32Users.resources
+F:\all projects\my prj\System Information 2\System Information II\obj\Debug\SystemInformation.SplashScreen.resources
+F:\all projects\my prj\System Information 2\System Information II\obj\Debug\SystemInformation.VisualStyles.resources
+F:\all projects\my prj\System Information 2\System Information II\obj\Debug\SystemInformation.SpecialFolders.resources
+F:\all projects\my prj\System Information 2\System Information II\obj\Debug\SystemInformation.Introduction.resources
+F:\all projects\my prj\System Information 2\System Information II\obj\Debug\SystemInformation.Video.resources
+F:\all projects\my prj\System Information 2\System Information II\obj\Debug\SystemInformation.Sound.resources
+F:\all projects\my prj\System Information 2\System Information II\obj\Debug\SystemInformation.Network.resources
+F:\all projects\my prj\System Information 2\System Information II\obj\Debug\SystemInformation.Drives.resources
+F:\all projects\my prj\System Information 2\System Information II\obj\Debug\SystemInformation.Computer.resources
+F:\all projects\my prj\System Information 2\System Information II\obj\Debug\SystemInformation.Bios.resources
+F:\all projects\my prj\System Information 2\System Information II\obj\Debug\SystemInformation.Cpu.resources
+F:\all projects\my prj\System Information 2\System Information II\obj\Debug\SystemInformation.OperatingSystem.resources
+F:\all projects\my prj\System Information 2\System Information II\obj\Debug\SystemInformation.MainForm.resources
+F:\all projects\my prj\System Information 2\System Information II\obj\Debug\SystemInformation.Resources.resources
+F:\all projects\my prj\System Information 2\System Information II\obj\Debug\SystemInformation.TaskPanelBase.resources
+F:\all projects\my prj\System Information 2\System Information II\obj\Debug\GenerateResource.read.1.tlog
+F:\all projects\my prj\System Information 2\System Information II\obj\Debug\GenerateResource.write.1.tlog
+F:\project\System Information 2\System Information 2\System Information II\bin\SystemInformation.exe.config
+F:\project\System Information 2\System Information 2\System Information II\obj\Debug\SystemInformation.exe
+F:\project\System Information 2\System Information 2\System Information II\obj\Debug\SystemInformation.xml
+F:\project\System Information 2\System Information 2\System Information II\obj\Debug\SystemInformation.pdb

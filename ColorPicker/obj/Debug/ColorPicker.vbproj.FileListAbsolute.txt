@@ -1,0 +1,42 @@
+C:\Documents and Settings\Administrator\My Documents\Downloads\Compressed\System_Inf211495642008\ColorPicker\bin\ColorPicker.dll
+C:\Documents and Settings\Administrator\My Documents\Downloads\Compressed\System_Inf211495642008\ColorPicker\bin\ColorPicker.pdb
+C:\Documents and Settings\Administrator\My Documents\Downloads\Compressed\System_Inf211495642008\ColorPicker\bin\ColorPicker.xml
+C:\Documents and Settings\Administrator\My Documents\Downloads\Compressed\System_Inf211495642008\ColorPicker\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\My Documents\Downloads\Compressed\System_Inf211495642008\ColorPicker\obj\Debug\VirtualSoftware.ColorPicker.resources
+C:\Documents and Settings\Administrator\My Documents\Downloads\Compressed\System_Inf211495642008\ColorPicker\obj\Debug\VirtualSoftware.ComboBoxDisplay.resources
+C:\Documents and Settings\Administrator\My Documents\Downloads\Compressed\System_Inf211495642008\ColorPicker\obj\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Administrator\My Documents\Downloads\Compressed\System_Inf211495642008\ColorPicker\obj\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Administrator\My Documents\Downloads\Compressed\System_Inf211495642008\ColorPicker\obj\Debug\ColorPicker.dll
+C:\Documents and Settings\Administrator\My Documents\Downloads\Compressed\System_Inf211495642008\ColorPicker\obj\Debug\ColorPicker.xml
+C:\Documents and Settings\Administrator\My Documents\Downloads\Compressed\System_Inf211495642008\ColorPicker\obj\Debug\ColorPicker.pdb
+F:\all projects\my prj\System Information 2\ColorPicker\bin\ColorPicker.dll
+F:\all projects\my prj\System Information 2\ColorPicker\bin\ColorPicker.pdb
+F:\all projects\my prj\System Information 2\ColorPicker\bin\ColorPicker.xml
+F:\all projects\my prj\System Information 2\ColorPicker\obj\Debug\ResolveAssemblyReference.cache
+F:\all projects\my prj\System Information 2\ColorPicker\obj\Debug\VirtualSoftware.ColorPicker.resources
+F:\all projects\my prj\System Information 2\ColorPicker\obj\Debug\VirtualSoftware.ComboBoxDisplay.resources
+F:\all projects\my prj\System Information 2\ColorPicker\obj\Debug\GenerateResource.read.1.tlog
+F:\all projects\my prj\System Information 2\ColorPicker\obj\Debug\GenerateResource.write.1.tlog
+F:\all projects\my prj\System Information 2\ColorPicker\obj\Debug\ColorPicker.dll
+F:\all projects\my prj\System Information 2\ColorPicker\obj\Debug\ColorPicker.xml
+F:\all projects\my prj\System Information 2\ColorPicker\obj\Debug\ColorPicker.pdb
+F:\project\System Information 2\System Information 2\ColorPicker\bin\ColorPicker.dll
+F:\project\System Information 2\System Information 2\ColorPicker\bin\ColorPicker.pdb
+F:\project\System Information 2\System Information 2\ColorPicker\bin\ColorPicker.xml
+F:\project\System Information 2\System Information 2\ColorPicker\obj\Debug\ResolveAssemblyReference.cache
+F:\project\System Information 2\System Information 2\ColorPicker\obj\Debug\VirtualSoftware.ColorPicker.resources
+F:\project\System Information 2\System Information 2\ColorPicker\obj\Debug\VirtualSoftware.ComboBoxDisplay.resources
+F:\project\System Information 2\System Information 2\ColorPicker\obj\Debug\GenerateResource.read.1.tlog
+F:\project\System Information 2\System Information 2\ColorPicker\obj\Debug\GenerateResource.write.1.tlog
+F:\project\System Information 2\System Information 2\ColorPicker\obj\Debug\ColorPicker.dll
+F:\project\System Information 2\System Information 2\ColorPicker\obj\Debug\ColorPicker.xml
+F:\project\System Information 2\System Information 2\ColorPicker\obj\Debug\ColorPicker.pdb
+C:\Users\Pjoao1578\Downloads\Compressed\System Information\ColorPicker\bin\ColorPicker.dll
+C:\Users\Pjoao1578\Downloads\Compressed\System Information\ColorPicker\bin\ColorPicker.pdb
+C:\Users\Pjoao1578\Downloads\Compressed\System Information\ColorPicker\bin\ColorPicker.xml
+C:\Users\Pjoao1578\Downloads\Compressed\System Information\ColorPicker\obj\Debug\VirtualSoftware.ColorPicker.resources
+C:\Users\Pjoao1578\Downloads\Compressed\System Information\ColorPicker\obj\Debug\VirtualSoftware.ComboBoxDisplay.resources
+C:\Users\Pjoao1578\Downloads\Compressed\System Information\ColorPicker\obj\Debug\ColorPicker.vbproj.GenerateResource.Cache
+C:\Users\Pjoao1578\Downloads\Compressed\System Information\ColorPicker\obj\Debug\ColorPicker.dll
+C:\Users\Pjoao1578\Downloads\Compressed\System Information\ColorPicker\obj\Debug\ColorPicker.xml
+C:\Users\Pjoao1578\Downloads\Compressed\System Information\ColorPicker\obj\Debug\ColorPicker.pdb

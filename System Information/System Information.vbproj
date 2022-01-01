@@ -1,0 +1,801 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30428</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D21BFE21-20EB-48B8-BA66-9B7F639DFF95}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>SystemInformation.My.MyApplication</StartupObject>
+    <RootNamespace>SystemInformation</RootNamespace>
+    <AssemblyName>SystemInformation</AssemblyName>
+    <OptionStrict>On</OptionStrict>
+    <ApplicationIcon>Resources\System Information.ico</ApplicationIcon>
+    <SignAssembly>false</SignAssembly>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <MyType>WindowsForms</MyType>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <IncrementalBuild>true</IncrementalBuild>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>
+    </DefineConstants>
+    <DocumentationFile>SystemInformation.xml</DocumentationFile>
+    <NoWarn>42353,42354,42355</NoWarn>
+    <WarningsAsErrors>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</WarningsAsErrors>
+    <CodeAnalysisRules>
+    </CodeAnalysisRules>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleSet>Migrated rules for System Information II.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>false</DebugSymbols>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <IncrementalBuild>false</IncrementalBuild>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>
+    </DefineConstants>
+    <DocumentationFile>SystemInformation.xml</DocumentationFile>
+    <NoWarn>42353,42354,42355</NoWarn>
+    <WarningsAsErrors>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</WarningsAsErrors>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <CodeAnalysisRules>
+    </CodeAnalysisRules>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleSet>Migrated rules for System Information II (3).ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>_MyType="WindowsForms"</DefineConstants>
+    <DocumentationFile>SystemInformation.xml</DocumentationFile>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <WarningsAsErrors>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</WarningsAsErrors>
+    <CodeAnalysisRules>
+    </CodeAnalysisRules>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.vb</CodeAnalysisModuleSuppressionsFile>
+    <NoWarn>42353,42354,42355</NoWarn>
+    <CodeAnalysisRuleSet>Migrated rules for System Information II (2).ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>_MyType="WindowsForms"</DefineConstants>
+    <RemoveIntegerChecks>true</RemoveIntegerChecks>
+    <DocumentationFile>SystemInformation.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <PlatformTarget>x86</PlatformTarget>
+    <WarningsAsErrors>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</WarningsAsErrors>
+    <CodeAnalysisRules>
+    </CodeAnalysisRules>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.vb</CodeAnalysisModuleSuppressionsFile>
+    <NoWarn>42353,42354,42355</NoWarn>
+    <CodeAnalysisRuleSet>Migrated rules for System Information II (4).ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.XML" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="GlobalSuppressions.vb" />
+    <Compile Include="Classes\HolidayCalculator.vb" />
+    <Compile Include="Classes\ListViewItemComparer.vb" />
+    <Compile Include="Classes\ManagementInfo.vb" />
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\Bios.Designer.vb">
+      <DependentUpon>Bios.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\Components.Designer.vb">
+      <DependentUpon>Components.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\Components.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels\Computer.Designer.vb">
+      <DependentUpon>Computer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\Drivers.Designer.vb">
+      <DependentUpon>Drivers.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\Drivers.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels\EnvironmentVariables.Designer.vb">
+      <DependentUpon>EnvironmentVariables.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\EnvironmentVariables.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels\EventViewer.Designer.vb">
+      <DependentUpon>EventViewer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\EventViewer.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels\FileTypes.Designer.vb">
+      <DependentUpon>FileTypes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\FileTypes.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels\Fonts.Designer.vb">
+      <DependentUpon>Fonts.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\Fonts.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels\Win32Storage.Designer.vb">
+      <DependentUpon>Win32Storage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\Win32Storage.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels\Keyboard.Designer.vb">
+      <DependentUpon>Keyboard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\Keyboard.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels\Win32Hardware.Designer.vb">
+      <DependentUpon>Win32Hardware.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\Win32Hardware.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels\MultimediaCodecs.Designer.vb">
+      <DependentUpon>MultimediaCodecs.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\MultimediaCodecs.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels\PointingDevice.Designer.vb">
+      <DependentUpon>PointingDevice.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\PointingDevice.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels\Ports.Designer.vb">
+      <DependentUpon>Ports.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\Ports.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels\Processes.Designer.vb">
+      <DependentUpon>Processes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\Processes.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels\OEMInformation.Designer.vb">
+      <DependentUpon>OEMInformation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\OEMInformation.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels\InstalledPrograms.Designer.vb">
+      <DependentUpon>InstalledPrograms.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\InstalledPrograms.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels\Cpu.Designer.vb">
+      <DependentUpon>Cpu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\DateAndTime.Designer.vb">
+      <DependentUpon>DateAndTime.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\Drives.Designer.vb">
+      <DependentUpon>Drives.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\Introduction.Designer.vb">
+      <DependentUpon>Introduction.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\Network.Designer.vb">
+      <DependentUpon>Network.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\OperatingSystem.Designer.vb">
+      <DependentUpon>OperatingSystem.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\Services.Designer.vb">
+      <DependentUpon>Services.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\Services.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels\Shares.Designer.vb">
+      <DependentUpon>Shares.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\Shares.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels\Sound.Designer.vb">
+      <DependentUpon>Sound.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\SpecialFolders.Designer.vb">
+      <DependentUpon>SpecialFolders.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\StartupPrograms.Designer.vb">
+      <DependentUpon>StartupPrograms.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\StartupPrograms.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels\DateAndTime.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Classes\ComputerInformation.vb" />
+    <Compile Include="Classes\NativeMethods.vb" />
+    <Compile Include="Panels\UsbDevices.Designer.vb">
+      <DependentUpon>UsbDevices.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\UsbDevices.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels\UserInformation.Designer.vb">
+      <DependentUpon>UserInformation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\UserInformation.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels\Video.Designer.vb">
+      <DependentUpon>Video.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\Desktop.Designer.vb">
+      <DependentUpon>Desktop.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\Desktop.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels\VisualStyles.Designer.vb">
+      <DependentUpon>VisualStyles.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\Win32Memory.Designer.vb">
+      <DependentUpon>Win32Memory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\Win32Memory.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels\Win32Network.Designer.vb">
+      <DependentUpon>Win32Network.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\Win32Network.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels\Win32System.Designer.vb">
+      <DependentUpon>Win32System.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\Win32System.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels\Win32Users.Designer.vb">
+      <DependentUpon>Win32Users.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\Win32Users.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Program.vb" />
+    <Compile Include="Classes\ShortcutClass.vb" />
+    <Compile Include="SplashScreen.Designer.vb">
+      <DependentUpon>SplashScreen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SplashScreen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Panels\VisualStyles.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels\SpecialFolders.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels\Introduction.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels\Video.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels\Sound.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels\Network.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels\Drives.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels\Computer.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels\Bios.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels\Cpu.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels\OperatingSystem.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.vb">
+      <DependentUpon>MainForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\TaskPanelBase.Designer.vb">
+      <DependentUpon>TaskPanelBase.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\TaskPanelBase.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Panels\Components.resx">
+      <DependentUpon>Components.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\Drivers.resx">
+      <DependentUpon>Drivers.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\EnvironmentVariables.resx">
+      <DependentUpon>EnvironmentVariables.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\EventViewer.resx">
+      <DependentUpon>EventViewer.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\FileTypes.resx">
+      <DependentUpon>FileTypes.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\Fonts.resx">
+      <DependentUpon>Fonts.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\Win32Storage.resx">
+      <DependentUpon>Win32Storage.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\Keyboard.resx">
+      <DependentUpon>Keyboard.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\Win32Hardware.resx">
+      <DependentUpon>Win32Hardware.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\MultimediaCodecs.resx">
+      <DependentUpon>MultimediaCodecs.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\PointingDevice.resx">
+      <DependentUpon>PointingDevice.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\Ports.resx">
+      <DependentUpon>Ports.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\Processes.resx">
+      <DependentUpon>Processes.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\OEMInformation.resx">
+      <DependentUpon>OEMInformation.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\InstalledPrograms.resx">
+      <DependentUpon>InstalledPrograms.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\Services.resx">
+      <DependentUpon>Services.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\Shares.resx">
+      <DependentUpon>Shares.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\StartupPrograms.resx">
+      <DependentUpon>StartupPrograms.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\DateAndTime.resx">
+      <DependentUpon>DateAndTime.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\UsbDevices.resx">
+      <DependentUpon>UsbDevices.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\UserInformation.resx">
+      <DependentUpon>UserInformation.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\Desktop.resx">
+      <DependentUpon>Desktop.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\Win32Memory.resx">
+      <DependentUpon>Win32Memory.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\Win32Network.resx">
+      <DependentUpon>Win32Network.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\Win32System.resx">
+      <DependentUpon>Win32System.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\Win32Users.resx">
+      <DependentUpon>Win32Users.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SplashScreen.resx">
+      <DependentUpon>SplashScreen.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\VisualStyles.resx">
+      <DependentUpon>VisualStyles.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\SpecialFolders.resx">
+      <DependentUpon>SpecialFolders.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\Introduction.resx">
+      <DependentUpon>Introduction.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\Video.resx">
+      <DependentUpon>Video.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\Sound.resx">
+      <DependentUpon>Sound.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\Network.resx">
+      <DependentUpon>Network.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\Drives.resx">
+      <DependentUpon>Drives.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\Computer.resx">
+      <DependentUpon>Computer.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\Bios.resx">
+      <DependentUpon>Bios.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\Cpu.resx">
+      <DependentUpon>Cpu.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\OperatingSystem.resx">
+      <DependentUpon>OperatingSystem.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources1.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\TaskPanelBase.resx">
+      <DependentUpon>TaskPanelBase.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Migrated rules for System Information II %282%29.ruleset" />
+    <None Include="Migrated rules for System Information II %283%29.ruleset" />
+    <None Include="Migrated rules for System Information II %284%29.ruleset" />
+    <None Include="Migrated rules for System Information II.ruleset" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="My Project\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Background_Off_White.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BIOS_48x48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Computer_48x48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CPU_48x48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Drive_48x48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Network_48x48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sound_48x48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Video_48x48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Windows_48x48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Windows_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BIOS_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Computer_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CPU_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Drive_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Network_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sound_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Video_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Virtual Software with Logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SpecialFolder_48x48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SpecialFolder_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Settings.settings">
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Resources\EULA.pdf" />
+    <None Include="Resources\EULA.rtf" />
+    <None Include="Resources\segoeui.ttf" />
+    <None Include="Resources\segoeuib.ttf" />
+    <None Include="Resources\VisualStyles_48x48.png" />
+    <None Include="Resources\VisualStyles_16x16.png" />
+    <None Include="Resources\Date-Time_16x16.png" />
+    <None Include="Resources\Date-Time_48x48.png" />
+    <None Include="Resources\Windows XP_48x48.png" />
+    <None Include="Resources\aurora_header.png" />
+    <None Include="Resources\Windows2000_48x48.png" />
+    <None Include="Resources\Windows Vista_48x48.png" />
+    <None Include="Resources\System Information_16x16.png" />
+    <None Include="Resources\System Information_48x48.png" />
+    <None Include="Resources\Windows2000_16x16.png" />
+    <None Include="Resources\Windows Vista_16x16.png" />
+    <None Include="Resources\Windows XP_16x16.png" />
+    <None Include="Icons\CPU00.ico" />
+    <None Include="Icons\CPU05.ico" />
+    <None Include="Icons\CPU10.ico" />
+    <None Include="Icons\CPU20.ico" />
+    <None Include="Icons\CPU30.ico" />
+    <None Include="Icons\CPU40.ico" />
+    <None Include="Icons\CPU50.ico" />
+    <None Include="Icons\CPU60.ico" />
+    <None Include="Icons\CPU80.ico" />
+    <None Include="Icons\CPU90.ico" />
+    <None Include="Icons\CPU100.ico" />
+    <None Include="Resources\Adaptor_16x16.png" />
+    <None Include="Icons\GenericSmall.ico" />
+    <None Include="Icons\GenericLarge.ico" />
+    <Content Include="Resources\AuditFailure_16x16.png" />
+    <Content Include="Resources\AuditSuccess_16x16.png" />
+    <Content Include="Resources\Blank.png" />
+    <Content Include="Resources\CDROM_16x16.png" />
+    <None Include="Resources\CMD_16x16.png" />
+    <None Include="Resources\CMD_48x48.png" />
+    <None Include="Resources\Components_16x16.png" />
+    <None Include="Resources\Components_48x48.png" />
+    <None Include="Resources\Drivers_16x16.png" />
+    <None Include="Resources\Drivers_48x48.png" />
+    <None Include="Resources\Error.png" />
+    <None Include="Resources\EventViewer_16x16.png" />
+    <None Include="Resources\EventViewer_48x48.png" />
+    <None Include="Resources\FileTypes_16x16.png" />
+    <None Include="Resources\FileTypes_48x48.png" />
+    <None Include="Resources\Desktop_16x16.png" />
+    <None Include="Resources\Desktop_48x48.png" />
+    <Content Include="Resources\Device_16x16.png" />
+    <None Include="Resources\Exit_16x16.png" />
+    <Content Include="Resources\Floppy_16x16.png" />
+    <None Include="Resources\Installed Programs_48x48.png" />
+    <None Include="Resources\Installed Programs_16x16.png" />
+    <None Include="Resources\Font_16x16.png" />
+    <None Include="Resources\Font_48x48.png" />
+    <None Include="Resources\Information.png" />
+    <None Include="Resources\Internet_16x16.png" />
+    <None Include="Resources\Modem_16x16.png" />
+    <None Include="Resources\InputDevices_16x16.png" />
+    <None Include="Resources\InputDevices_48x48.png" />
+    <None Include="Resources\Keyboard_16x16.png" />
+    <None Include="Resources\Keyboard_48x48.png" />
+    <None Include="Resources\Mouse_16x16.png" />
+    <None Include="Resources\Mouse_48x48.png" />
+    <None Include="Resources\Multimedia_16x16.png" />
+    <None Include="Resources\Multimedia_48x48.png" />
+    <None Include="Resources\Miscellaneous_16x16.png" />
+    <None Include="Resources\Miscellaneous_48x48.png" />
+    <None Include="Resources\Memory_48x48.png" />
+    <None Include="Resources\Motherboard_16x16.png" />
+    <None Include="Resources\Motherboard_48x48.png" />
+    <Content Include="Resources\GrayGradient.png" />
+    <Content Include="Resources\Holidays.xml" />
+    <Content Include="Resources\Memory_16x16.png" />
+    <Content Include="Resources\NetworkDrive_16x16.png" />
+    <None Include="Resources\Unknown_16x16.png" />
+    <None Include="Resources\Services_48x48.png" />
+    <None Include="Resources\Services_16x16.png" />
+    <None Include="Resources\OEM_16x 16.png" />
+    <None Include="Resources\OEM_48x48.png" />
+    <None Include="Resources\Processes_16x16.png" />
+    <None Include="Resources\Processes_48x48.png" />
+    <None Include="Resources\Shares_48x48.png" />
+    <None Include="Resources\SplashScreenGraphic.png" />
+    <None Include="Resources\No_16x16.png" />
+    <None Include="Resources\Proxy_16x16.png" />
+    <None Include="Resources\Ports_16x16.png" />
+    <None Include="Resources\Ports_48x48.png" />
+    <Content Include="Resources\Printer_16x16.png" />
+    <None Include="Resources\Restore_16x16.png" />
+    <Content Include="Resources\SharedIPC_16x16.png" />
+    <Content Include="Resources\Shares_16x16.png" />
+    <Content Include="Resources\Startup_16x16.png" />
+    <Content Include="Resources\Startup_48x48.png" />
+    <Content Include="Resources\System Information.ico" />
+    <None Include="Resources\UsbDrive_16x16.png" />
+    <None Include="Resources\UsbDrive_48x48.png" />
+    <Content Include="Resources\UserDisabled_16x16.png" />
+    <Content Include="Resources\Users_16x16.png" />
+    <Content Include="Resources\Users_48x48.png" />
+    <Content Include="Resources\User_16x16.png" />
+    <None Include="Resources\Warning.png" />
+    <Content Include="Resources\VideoMonitor_16x16.png" />
+    <Content Include="Resources\VideoMonitor_48x48.png" />
+    <None Include="Resources\VolumeInformation_48x48.png" />
+    <None Include="Resources\VolumeInformation_16x16.png" />
+    <Content Include="System Information.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ColorPicker\ColorPicker.vbproj">
+      <Project>{6B4B2CBF-6DD2-40BB-9ED9-D6F696946481}</Project>
+      <Name>ColorPicker</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.Targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
+</Project>

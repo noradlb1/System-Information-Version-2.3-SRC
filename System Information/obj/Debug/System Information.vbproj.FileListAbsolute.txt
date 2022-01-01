@@ -1,0 +1,214 @@
+F:\project\System Information 2\System Information 2\System Information II\bin\SystemInformation.exe.config
+F:\project\System Information 2\System Information 2\System Information II\bin\SystemInformation.exe
+F:\project\System Information 2\System Information 2\System Information II\bin\SystemInformation.pdb
+F:\project\System Information 2\System Information 2\System Information II\bin\SystemInformation.xml
+F:\project\System Information 2\System Information 2\System Information II\bin\ColorPicker.dll
+F:\project\System Information 2\System Information 2\System Information II\bin\ColorPicker.pdb
+F:\project\System Information 2\System Information 2\System Information II\bin\ColorPicker.xml
+F:\project\System Information 2\System Information 2\System Information II\obj\Debug\ResolveAssemblyReference.cache
+F:\project\System Information 2\System Information 2\System Information II\obj\Debug\SystemInformation.Component.resources
+F:\project\System Information 2\System Information 2\System Information II\obj\Debug\SystemInformation.Drivers.resources
+F:\project\System Information 2\System Information 2\System Information II\obj\Debug\SystemInformation.EnvironmentVariables.resources
+F:\project\System Information 2\System Information 2\System Information II\obj\Debug\SystemInformation.EventViewer.resources
+F:\project\System Information 2\System Information 2\System Information II\obj\Debug\SystemInformation.FileTypes.resources
+F:\project\System Information 2\System Information 2\System Information II\obj\Debug\SystemInformation.Fonts.resources
+F:\project\System Information 2\System Information 2\System Information II\obj\Debug\SystemInformation.Win32Storage.resources
+F:\project\System Information 2\System Information 2\System Information II\obj\Debug\SystemInformation.Keyboard.resources
+F:\project\System Information 2\System Information 2\System Information II\obj\Debug\SystemInformation.Win32Hardware.resources
+F:\project\System Information 2\System Information 2\System Information II\obj\Debug\SystemInformation.MultimediaCodecs.resources
+F:\project\System Information 2\System Information 2\System Information II\obj\Debug\SystemInformation.PointingDevice.resources
+F:\project\System Information 2\System Information 2\System Information II\obj\Debug\SystemInformation.Ports.resources
+F:\project\System Information 2\System Information 2\System Information II\obj\Debug\SystemInformation.Processes.resources
+F:\project\System Information 2\System Information 2\System Information II\obj\Debug\SystemInformation.OemInformation.resources
+F:\project\System Information 2\System Information 2\System Information II\obj\Debug\SystemInformation.InstalledPrograms.resources
+F:\project\System Information 2\System Information 2\System Information II\obj\Debug\SystemInformation.Services.resources
+F:\project\System Information 2\System Information 2\System Information II\obj\Debug\SystemInformation.Shares.resources
+F:\project\System Information 2\System Information 2\System Information II\obj\Debug\SystemInformation.StartupPrograms.resources
+F:\project\System Information 2\System Information 2\System Information II\obj\Debug\SystemInformation.DateAndTime.resources
+F:\project\System Information 2\System Information 2\System Information II\obj\Debug\SystemInformation.UsbDevices.resources
+F:\project\System Information 2\System Information 2\System Information II\obj\Debug\SystemInformation.UserInformation.resources
+F:\project\System Information 2\System Information 2\System Information II\obj\Debug\SystemInformation.Desktop.resources
+F:\project\System Information 2\System Information 2\System Information II\obj\Debug\SystemInformation.Win32Memory.resources
+F:\project\System Information 2\System Information 2\System Information II\obj\Debug\SystemInformation.Win32Network.resources
+F:\project\System Information 2\System Information 2\System Information II\obj\Debug\SystemInformation.Win32System.resources
+F:\project\System Information 2\System Information 2\System Information II\obj\Debug\SystemInformation.Win32Users.resources
+F:\project\System Information 2\System Information 2\System Information II\obj\Debug\SystemInformation.SplashScreen.resources
+F:\project\System Information 2\System Information 2\System Information II\obj\Debug\SystemInformation.VisualStyles.resources
+F:\project\System Information 2\System Information 2\System Information II\obj\Debug\SystemInformation.SpecialFolders.resources
+F:\project\System Information 2\System Information 2\System Information II\obj\Debug\SystemInformation.Introduction.resources
+F:\project\System Information 2\System Information 2\System Information II\obj\Debug\SystemInformation.Video.resources
+F:\project\System Information 2\System Information 2\System Information II\obj\Debug\SystemInformation.Sound.resources
+F:\project\System Information 2\System Information 2\System Information II\obj\Debug\SystemInformation.Network.resources
+F:\project\System Information 2\System Information 2\System Information II\obj\Debug\SystemInformation.Drives.resources
+F:\project\System Information 2\System Information 2\System Information II\obj\Debug\SystemInformation.Computer.resources
+F:\project\System Information 2\System Information 2\System Information II\obj\Debug\SystemInformation.Bios.resources
+F:\project\System Information 2\System Information 2\System Information II\obj\Debug\SystemInformation.Cpu.resources
+F:\project\System Information 2\System Information 2\System Information II\obj\Debug\SystemInformation.OperatingSystem.resources
+F:\project\System Information 2\System Information 2\System Information II\obj\Debug\SystemInformation.MainForm.resources
+F:\project\System Information 2\System Information 2\System Information II\obj\Debug\SystemInformation.Resources.resources
+F:\project\System Information 2\System Information 2\System Information II\obj\Debug\SystemInformation.TaskPanelBase.resources
+F:\project\System Information 2\System Information 2\System Information II\obj\Debug\GenerateResource.read.1.tlog
+F:\project\System Information 2\System Information 2\System Information II\obj\Debug\GenerateResource.write.1.tlog
+F:\project\System Information 2\System Information 2\System Information II\obj\Debug\SystemInformation.exe
+F:\project\System Information 2\System Information 2\System Information II\obj\Debug\SystemInformation.xml
+F:\project\System Information 2\System Information 2\System Information II\obj\Debug\SystemInformation.pdb
+F:\project\System Information 2\System Information 2\System Information\bin\SystemInformation.exe.config
+F:\project\System Information 2\System Information 2\System Information\obj\Debug\SystemInformation.exe
+F:\project\System Information 2\System Information 2\System Information\obj\Debug\SystemInformation.xml
+F:\project\System Information 2\System Information 2\System Information\obj\Debug\SystemInformation.pdb
+F:\project\System Information 2\System Information 2\System Information\bin\SystemInformation.exe
+F:\project\System Information 2\System Information 2\System Information\bin\SystemInformation.pdb
+F:\project\System Information 2\System Information 2\System Information\bin\SystemInformation.xml
+F:\project\System Information 2\System Information 2\System Information\bin\ColorPicker.dll
+F:\project\System Information 2\System Information 2\System Information\bin\ColorPicker.pdb
+F:\project\System Information 2\System Information 2\System Information\bin\ColorPicker.xml
+F:\project\System Information 2\System Information 2\System Information\obj\Debug\ResolveAssemblyReference.cache
+F:\project\System Information 2\System Information 2\System Information\obj\Debug\SystemInformation.Component.resources
+F:\project\System Information 2\System Information 2\System Information\obj\Debug\SystemInformation.Drivers.resources
+F:\project\System Information 2\System Information 2\System Information\obj\Debug\SystemInformation.EnvironmentVariables.resources
+F:\project\System Information 2\System Information 2\System Information\obj\Debug\SystemInformation.EventViewer.resources
+F:\project\System Information 2\System Information 2\System Information\obj\Debug\SystemInformation.FileTypes.resources
+F:\project\System Information 2\System Information 2\System Information\obj\Debug\SystemInformation.Fonts.resources
+F:\project\System Information 2\System Information 2\System Information\obj\Debug\SystemInformation.Win32Storage.resources
+F:\project\System Information 2\System Information 2\System Information\obj\Debug\SystemInformation.Keyboard.resources
+F:\project\System Information 2\System Information 2\System Information\obj\Debug\SystemInformation.Win32Hardware.resources
+F:\project\System Information 2\System Information 2\System Information\obj\Debug\SystemInformation.MultimediaCodecs.resources
+F:\project\System Information 2\System Information 2\System Information\obj\Debug\SystemInformation.PointingDevice.resources
+F:\project\System Information 2\System Information 2\System Information\obj\Debug\SystemInformation.Ports.resources
+F:\project\System Information 2\System Information 2\System Information\obj\Debug\SystemInformation.Processes.resources
+F:\project\System Information 2\System Information 2\System Information\obj\Debug\SystemInformation.OemInformation.resources
+F:\project\System Information 2\System Information 2\System Information\obj\Debug\SystemInformation.InstalledPrograms.resources
+F:\project\System Information 2\System Information 2\System Information\obj\Debug\SystemInformation.Services.resources
+F:\project\System Information 2\System Information 2\System Information\obj\Debug\SystemInformation.Shares.resources
+F:\project\System Information 2\System Information 2\System Information\obj\Debug\SystemInformation.StartupPrograms.resources
+F:\project\System Information 2\System Information 2\System Information\obj\Debug\SystemInformation.DateAndTime.resources
+F:\project\System Information 2\System Information 2\System Information\obj\Debug\SystemInformation.UsbDevices.resources
+F:\project\System Information 2\System Information 2\System Information\obj\Debug\SystemInformation.UserInformation.resources
+F:\project\System Information 2\System Information 2\System Information\obj\Debug\SystemInformation.Desktop.resources
+F:\project\System Information 2\System Information 2\System Information\obj\Debug\SystemInformation.Win32Memory.resources
+F:\project\System Information 2\System Information 2\System Information\obj\Debug\SystemInformation.Win32Network.resources
+F:\project\System Information 2\System Information 2\System Information\obj\Debug\SystemInformation.Win32System.resources
+F:\project\System Information 2\System Information 2\System Information\obj\Debug\SystemInformation.Win32Users.resources
+F:\project\System Information 2\System Information 2\System Information\obj\Debug\SystemInformation.SplashScreen.resources
+F:\project\System Information 2\System Information 2\System Information\obj\Debug\SystemInformation.VisualStyles.resources
+F:\project\System Information 2\System Information 2\System Information\obj\Debug\SystemInformation.SpecialFolders.resources
+F:\project\System Information 2\System Information 2\System Information\obj\Debug\SystemInformation.Introduction.resources
+F:\project\System Information 2\System Information 2\System Information\obj\Debug\SystemInformation.Video.resources
+F:\project\System Information 2\System Information 2\System Information\obj\Debug\SystemInformation.Sound.resources
+F:\project\System Information 2\System Information 2\System Information\obj\Debug\SystemInformation.Network.resources
+F:\project\System Information 2\System Information 2\System Information\obj\Debug\SystemInformation.Drives.resources
+F:\project\System Information 2\System Information 2\System Information\obj\Debug\SystemInformation.Computer.resources
+F:\project\System Information 2\System Information 2\System Information\obj\Debug\SystemInformation.Bios.resources
+F:\project\System Information 2\System Information 2\System Information\obj\Debug\SystemInformation.Cpu.resources
+F:\project\System Information 2\System Information 2\System Information\obj\Debug\SystemInformation.OperatingSystem.resources
+F:\project\System Information 2\System Information 2\System Information\obj\Debug\SystemInformation.MainForm.resources
+F:\project\System Information 2\System Information 2\System Information\obj\Debug\SystemInformation.Resources.resources
+F:\project\System Information 2\System Information 2\System Information\obj\Debug\SystemInformation.TaskPanelBase.resources
+F:\project\System Information 2\System Information 2\System Information\obj\Debug\GenerateResource.read.1.tlog
+F:\project\System Information 2\System Information 2\System Information\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\Pjoao1578\Downloads\Compressed\System Information\System Information\bin\SystemInformation.exe.config
+C:\Users\Pjoao1578\Downloads\Compressed\System Information\System Information\obj\Debug\SystemInformation.xml
+C:\Users\Pjoao1578\Downloads\Compressed\System Information\System Information\obj\Debug\SystemInformation.pdb
+C:\Users\Pjoao1578\Downloads\Compressed\System Information\System Information\bin\SystemInformation.exe
+C:\Users\Pjoao1578\Downloads\Compressed\System Information\System Information\bin\SystemInformation.pdb
+C:\Users\Pjoao1578\Downloads\Compressed\System Information\System Information\bin\SystemInformation.xml
+C:\Users\Pjoao1578\Downloads\Compressed\System Information\System Information\bin\ColorPicker.dll
+C:\Users\Pjoao1578\Downloads\Compressed\System Information\System Information\bin\ColorPicker.pdb
+C:\Users\Pjoao1578\Downloads\Compressed\System Information\System Information\bin\ColorPicker.xml
+C:\Users\Pjoao1578\Downloads\Compressed\System Information\System Information\obj\Debug\System Information.vbprojResolveAssemblyReference.cache
+C:\Users\Pjoao1578\Downloads\Compressed\System Information\System Information\obj\Debug\SystemInformation.Component.resources
+C:\Users\Pjoao1578\Downloads\Compressed\System Information\System Information\obj\Debug\SystemInformation.Drivers.resources
+C:\Users\Pjoao1578\Downloads\Compressed\System Information\System Information\obj\Debug\SystemInformation.EnvironmentVariables.resources
+C:\Users\Pjoao1578\Downloads\Compressed\System Information\System Information\obj\Debug\SystemInformation.EventViewer.resources
+C:\Users\Pjoao1578\Downloads\Compressed\System Information\System Information\obj\Debug\SystemInformation.FileTypes.resources
+C:\Users\Pjoao1578\Downloads\Compressed\System Information\System Information\obj\Debug\SystemInformation.Fonts.resources
+C:\Users\Pjoao1578\Downloads\Compressed\System Information\System Information\obj\Debug\SystemInformation.Win32Storage.resources
+C:\Users\Pjoao1578\Downloads\Compressed\System Information\System Information\obj\Debug\SystemInformation.Keyboard.resources
+C:\Users\Pjoao1578\Downloads\Compressed\System Information\System Information\obj\Debug\SystemInformation.Win32Hardware.resources
+C:\Users\Pjoao1578\Downloads\Compressed\System Information\System Information\obj\Debug\SystemInformation.MultimediaCodecs.resources
+C:\Users\Pjoao1578\Downloads\Compressed\System Information\System Information\obj\Debug\SystemInformation.PointingDevice.resources
+C:\Users\Pjoao1578\Downloads\Compressed\System Information\System Information\obj\Debug\SystemInformation.Ports.resources
+C:\Users\Pjoao1578\Downloads\Compressed\System Information\System Information\obj\Debug\SystemInformation.Processes.resources
+C:\Users\Pjoao1578\Downloads\Compressed\System Information\System Information\obj\Debug\SystemInformation.OemInformation.resources
+C:\Users\Pjoao1578\Downloads\Compressed\System Information\System Information\obj\Debug\SystemInformation.InstalledPrograms.resources
+C:\Users\Pjoao1578\Downloads\Compressed\System Information\System Information\obj\Debug\SystemInformation.Services.resources
+C:\Users\Pjoao1578\Downloads\Compressed\System Information\System Information\obj\Debug\SystemInformation.Shares.resources
+C:\Users\Pjoao1578\Downloads\Compressed\System Information\System Information\obj\Debug\SystemInformation.StartupPrograms.resources
+C:\Users\Pjoao1578\Downloads\Compressed\System Information\System Information\obj\Debug\SystemInformation.DateAndTime.resources
+C:\Users\Pjoao1578\Downloads\Compressed\System Information\System Information\obj\Debug\SystemInformation.UsbDevices.resources
+C:\Users\Pjoao1578\Downloads\Compressed\System Information\System Information\obj\Debug\SystemInformation.UserInformation.resources
+C:\Users\Pjoao1578\Downloads\Compressed\System Information\System Information\obj\Debug\SystemInformation.Desktop.resources
+C:\Users\Pjoao1578\Downloads\Compressed\System Information\System Information\obj\Debug\SystemInformation.Win32Memory.resources
+C:\Users\Pjoao1578\Downloads\Compressed\System Information\System Information\obj\Debug\SystemInformation.Win32Network.resources
+C:\Users\Pjoao1578\Downloads\Compressed\System Information\System Information\obj\Debug\SystemInformation.Win32System.resources
+C:\Users\Pjoao1578\Downloads\Compressed\System Information\System Information\obj\Debug\SystemInformation.Win32Users.resources
+C:\Users\Pjoao1578\Downloads\Compressed\System Information\System Information\obj\Debug\SystemInformation.SplashScreen.resources
+C:\Users\Pjoao1578\Downloads\Compressed\System Information\System Information\obj\Debug\SystemInformation.VisualStyles.resources
+C:\Users\Pjoao1578\Downloads\Compressed\System Information\System Information\obj\Debug\SystemInformation.SpecialFolders.resources
+C:\Users\Pjoao1578\Downloads\Compressed\System Information\System Information\obj\Debug\SystemInformation.Introduction.resources
+C:\Users\Pjoao1578\Downloads\Compressed\System Information\System Information\obj\Debug\SystemInformation.Video.resources
+C:\Users\Pjoao1578\Downloads\Compressed\System Information\System Information\obj\Debug\SystemInformation.Sound.resources
+C:\Users\Pjoao1578\Downloads\Compressed\System Information\System Information\obj\Debug\SystemInformation.Network.resources
+C:\Users\Pjoao1578\Downloads\Compressed\System Information\System Information\obj\Debug\SystemInformation.Drives.resources
+C:\Users\Pjoao1578\Downloads\Compressed\System Information\System Information\obj\Debug\SystemInformation.Computer.resources
+C:\Users\Pjoao1578\Downloads\Compressed\System Information\System Information\obj\Debug\SystemInformation.Bios.resources
+C:\Users\Pjoao1578\Downloads\Compressed\System Information\System Information\obj\Debug\SystemInformation.Cpu.resources
+C:\Users\Pjoao1578\Downloads\Compressed\System Information\System Information\obj\Debug\SystemInformation.OperatingSystem.resources
+C:\Users\Pjoao1578\Downloads\Compressed\System Information\System Information\obj\Debug\SystemInformation.MainForm.resources
+C:\Users\Pjoao1578\Downloads\Compressed\System Information\System Information\obj\Debug\SystemInformation.Resources.resources
+C:\Users\Pjoao1578\Downloads\Compressed\System Information\System Information\obj\Debug\SystemInformation.TaskPanelBase.resources
+C:\Users\Pjoao1578\Downloads\Compressed\System Information\System Information\obj\Debug\System Information.vbproj.GenerateResource.Cache
+C:\Users\Pjoao1578\Downloads\Compressed\System Information\System Information\obj\Debug\SystemInformation.exe
+C:\Users\Pjoao1578\Desktop\System Information\System Information\bin\SystemInformation.exe.config
+C:\Users\Pjoao1578\Desktop\System Information\System Information\obj\Debug\SystemInformation.exe
+C:\Users\Pjoao1578\Desktop\System Information\System Information\obj\Debug\SystemInformation.xml
+C:\Users\Pjoao1578\Desktop\System Information\System Information\obj\Debug\SystemInformation.pdb
+C:\Users\Pjoao1578\Desktop\System Information\System Information\bin\SystemInformation.exe
+C:\Users\Pjoao1578\Desktop\System Information\System Information\bin\SystemInformation.pdb
+C:\Users\Pjoao1578\Desktop\System Information\System Information\bin\SystemInformation.xml
+C:\Users\Pjoao1578\Desktop\System Information\System Information\bin\ColorPicker.dll
+C:\Users\Pjoao1578\Desktop\System Information\System Information\bin\ColorPicker.pdb
+C:\Users\Pjoao1578\Desktop\System Information\System Information\bin\ColorPicker.xml
+C:\Users\Pjoao1578\Desktop\System Information\System Information\obj\Debug\System Information.vbprojResolveAssemblyReference.cache
+C:\Users\Pjoao1578\Desktop\System Information\System Information\obj\Debug\SystemInformation.Component.resources
+C:\Users\Pjoao1578\Desktop\System Information\System Information\obj\Debug\SystemInformation.Drivers.resources
+C:\Users\Pjoao1578\Desktop\System Information\System Information\obj\Debug\SystemInformation.EnvironmentVariables.resources
+C:\Users\Pjoao1578\Desktop\System Information\System Information\obj\Debug\SystemInformation.EventViewer.resources
+C:\Users\Pjoao1578\Desktop\System Information\System Information\obj\Debug\SystemInformation.FileTypes.resources
+C:\Users\Pjoao1578\Desktop\System Information\System Information\obj\Debug\SystemInformation.Fonts.resources
+C:\Users\Pjoao1578\Desktop\System Information\System Information\obj\Debug\SystemInformation.Win32Storage.resources
+C:\Users\Pjoao1578\Desktop\System Information\System Information\obj\Debug\SystemInformation.Keyboard.resources
+C:\Users\Pjoao1578\Desktop\System Information\System Information\obj\Debug\SystemInformation.Win32Hardware.resources
+C:\Users\Pjoao1578\Desktop\System Information\System Information\obj\Debug\SystemInformation.MultimediaCodecs.resources
+C:\Users\Pjoao1578\Desktop\System Information\System Information\obj\Debug\SystemInformation.PointingDevice.resources
+C:\Users\Pjoao1578\Desktop\System Information\System Information\obj\Debug\SystemInformation.Ports.resources
+C:\Users\Pjoao1578\Desktop\System Information\System Information\obj\Debug\SystemInformation.Processes.resources
+C:\Users\Pjoao1578\Desktop\System Information\System Information\obj\Debug\SystemInformation.OemInformation.resources
+C:\Users\Pjoao1578\Desktop\System Information\System Information\obj\Debug\SystemInformation.InstalledPrograms.resources
+C:\Users\Pjoao1578\Desktop\System Information\System Information\obj\Debug\SystemInformation.Services.resources
+C:\Users\Pjoao1578\Desktop\System Information\System Information\obj\Debug\SystemInformation.Shares.resources
+C:\Users\Pjoao1578\Desktop\System Information\System Information\obj\Debug\SystemInformation.StartupPrograms.resources
+C:\Users\Pjoao1578\Desktop\System Information\System Information\obj\Debug\SystemInformation.DateAndTime.resources
+C:\Users\Pjoao1578\Desktop\System Information\System Information\obj\Debug\SystemInformation.UsbDevices.resources
+C:\Users\Pjoao1578\Desktop\System Information\System Information\obj\Debug\SystemInformation.UserInformation.resources
+C:\Users\Pjoao1578\Desktop\System Information\System Information\obj\Debug\SystemInformation.Desktop.resources
+C:\Users\Pjoao1578\Desktop\System Information\System Information\obj\Debug\SystemInformation.Win32Memory.resources
+C:\Users\Pjoao1578\Desktop\System Information\System Information\obj\Debug\SystemInformation.Win32Network.resources
+C:\Users\Pjoao1578\Desktop\System Information\System Information\obj\Debug\SystemInformation.Win32System.resources
+C:\Users\Pjoao1578\Desktop\System Information\System Information\obj\Debug\SystemInformation.Win32Users.resources
+C:\Users\Pjoao1578\Desktop\System Information\System Information\obj\Debug\SystemInformation.SplashScreen.resources
+C:\Users\Pjoao1578\Desktop\System Information\System Information\obj\Debug\SystemInformation.VisualStyles.resources
+C:\Users\Pjoao1578\Desktop\System Information\System Information\obj\Debug\SystemInformation.SpecialFolders.resources
+C:\Users\Pjoao1578\Desktop\System Information\System Information\obj\Debug\SystemInformation.Introduction.resources
+C:\Users\Pjoao1578\Desktop\System Information\System Information\obj\Debug\SystemInformation.Video.resources
+C:\Users\Pjoao1578\Desktop\System Information\System Information\obj\Debug\SystemInformation.Sound.resources
+C:\Users\Pjoao1578\Desktop\System Information\System Information\obj\Debug\SystemInformation.Network.resources
+C:\Users\Pjoao1578\Desktop\System Information\System Information\obj\Debug\SystemInformation.Drives.resources
+C:\Users\Pjoao1578\Desktop\System Information\System Information\obj\Debug\SystemInformation.Computer.resources
+C:\Users\Pjoao1578\Desktop\System Information\System Information\obj\Debug\SystemInformation.Bios.resources
+C:\Users\Pjoao1578\Desktop\System Information\System Information\obj\Debug\SystemInformation.Cpu.resources
+C:\Users\Pjoao1578\Desktop\System Information\System Information\obj\Debug\SystemInformation.OperatingSystem.resources
+C:\Users\Pjoao1578\Desktop\System Information\System Information\obj\Debug\SystemInformation.MainForm.resources
+C:\Users\Pjoao1578\Desktop\System Information\System Information\obj\Debug\SystemInformation.Resources.resources
+C:\Users\Pjoao1578\Desktop\System Information\System Information\obj\Debug\SystemInformation.TaskPanelBase.resources
+C:\Users\Pjoao1578\Desktop\System Information\System Information\obj\Debug\System Information.vbproj.GenerateResource.Cache

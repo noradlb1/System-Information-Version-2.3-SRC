@@ -1,0 +1,1554 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SystemInformation
+</name>
+</assembly>
+<members>
+<member name="M:SystemInformation.HolidayCalculator.#ctor(System.DateTime,System.String)">
+	<summary>
+ Returns all of the holidays occuring in the year following the date that is passed in the constructor.
+ Holidays are defined in an XML file.
+ </summary>
+	<param name="startDate">
+ The starting date for returning holidays.
+ All holidays for one year after this date are returned.
+ </param>
+	<param name="xmlPath">
+ The path to the XML file that contains the holiday definitions.
+ </param>
+</member><member name="P:SystemInformation.HolidayCalculator.OrderedHolidays">
+	<summary>
+ The holidays occuring after StartDate listed in chronological order;
+ </summary>
+</member><member name="M:SystemInformation.HolidayCalculator.ProcessXML">
+	<summary>
+ Loops through the holidays defined in the XML configuration file,
+ and adds the next occurance into the OrderHolidays collection if it occurs within one year.
+ </summary>
+</member><member name="M:SystemInformation.HolidayCalculator.ProcessNode(System.Xml.XmlNode)">
+	<summary>
+ Processes a Holiday node from the XML configuration file.
+ </summary>
+	<param name="n">The Holdiay node to process.</param>
+</member><member name="M:SystemInformation.HolidayCalculator.Easter">
+	<summary>
+ Determines the next occurance of Easter (western Christian).
+ </summary>
+</member><member name="M:SystemInformation.HolidayCalculator.Easter(System.Int32)">
+	<summary>
+ Determines the occurance of Easter in the given year.  
+ If the result comes before StartDate, recalculates for the following year.
+ </summary>
+</member><member name="M:SystemInformation.HolidayCalculator.GetDateByWeekdayOnOrAfter(System.Int32,System.Int32,System.Int32,System.DateTime)">
+	<summary>
+ Gets the next occurance of a weekday after a given month and day in the year after StartDate.
+ </summary>
+	<param name="weekday">The day of the week (0=Sunday).</param>
+	<param name="m">The Month</param>
+	<param name="d">Day</param>
+</member><member name="M:SystemInformation.HolidayCalculator.GetDateByMonthWeekWeekday(System.Int32,System.Int32,System.Int32,System.DateTime)">
+	<summary>
+ Gets the n'th instance of a day-of-week in the given month after StartDate
+ </summary>
+	<param name="month">The month the Holiday falls on.</param>
+	<param name="week">The instance of weekday that the Holiday falls on (5=last instance in the month).</param>
+	<param name="weekday">The day of the week that the Holiday falls on.</param>
+</member><member name="M:SystemInformation.HolidayCalculator.GetFirstDayOfMonth(System.DateTime)">
+	<summary>
+ Returns the first day of the month for the specified date.
+ </summary>
+</member><member name="M:SystemInformation.Win32Hardware.CreateInstance">
+	<summary>
+ Create a global instance of this panel
+ </summary>&gt;
+
+</member><member name="M:SystemInformation.Cpu.CreateInstance">
+	<summary>
+ Create a global instance of this panel
+ </summary>&gt;
+
+</member><member name="M:SystemInformation.Cpu.ResizePanel(System.Windows.Forms.Control)">
+	<summary>
+ Resize panel to fit containing control.
+ </summary>
+</member><member name="M:SystemInformation.FileTypes.CreateInstance">
+	<summary>
+ Create a global instance of this panel
+ </summary>&gt;
+
+</member><member name="M:SystemInformation.FileTypes.ResizePanel(System.Windows.Forms.Control)">
+	<summary>
+ Resize panel to fit containing control.
+ </summary>
+</member><member name="M:SystemInformation.FileTypes.LoadFileTypes">
+	<summary>
+ Loading all files types from registry.
+ </summary>
+</member><member name="M:SystemInformation.Fonts.CreateInstance">
+	<summary>
+ Create a global instance of this panel
+ </summary>&gt;
+
+</member><member name="M:SystemInformation.Fonts.ResizePanel(System.Windows.Forms.Control)">
+	<summary>
+ Resize panel to fit containing control.
+ </summary>
+</member><member name="M:SystemInformation.UsbDevices.CreateInstance">
+	<summary>
+ Create a global instance of this panel
+ </summary>&gt;
+
+</member><member name="M:SystemInformation.UsbDevices.ResizePanel(System.Windows.Forms.Control)">
+	<summary>
+ Resize panel to fit containing control.
+ </summary>
+</member><member name="M:SystemInformation.Component.CreateInstance">
+	<summary>
+ Create a global instance of this panel
+ </summary>&gt;
+
+</member><member name="M:SystemInformation.Component.ResizePanel(System.Windows.Forms.Control)">
+	<summary>
+ Resize panel to fit containing control.
+ </summary>
+</member><member name="M:SystemInformation.Component.ListViewComponents_ColumnClick(System.Object,System.Windows.Forms.ColumnClickEventArgs)">
+	<summary>
+ Set the ListViewItemSorter property to a new ListViewItemComparer 
+ object. Setting this property immediately sorts the 
+ ListView using the ListViewItemComparer object.
+ </summary>
+</member><member name="M:SystemInformation.Component.LoadComponents">
+	<summary>
+ Loading all components from registry.
+ </summary>
+</member><member name="M:SystemInformation.NativeMethods.GetVolumeSerialNumber(System.String)">
+	<summary>
+ Returns hexadecimal volume serial number.
+ </summary>
+	<param name="volume">volume "drive letter"</param>
+</member><member name="M:SystemInformation.NativeMethods.GetIcon(System.String)">
+	<summary>
+ Return first icon for an executible file.
+ </summary>
+	<remarks>
+ This overload does not require an icon index to be specified.
+ </remarks>
+</member><member name="M:SystemInformation.NativeMethods.GetIcon(System.String,System.Int32)">
+	<summary>
+ Return specified icon for an executible file.
+ </summary>
+	<remarks>
+ This overload requires an icon index to be specified.
+ </remarks>
+</member><member name="M:SystemInformation.VisualStyles.CreateInstance">
+	<summary>
+ Create a global instance of this panel
+ </summary>&gt;
+
+</member><member name="M:SystemInformation.VisualStyles.ResizePanel(System.Windows.Forms.Control)">
+	<summary>
+ Resize panel to fit containing control.
+ </summary>
+</member><member name="M:SystemInformation.Keyboard.CreateInstance">
+	<summary>
+ Create a global instance of this panel
+ </summary>&gt;
+
+</member><member name="M:SystemInformation.Keyboard.ResizePanel(System.Windows.Forms.Control)">
+	<summary>
+ Resize panel to fit containing control.
+ </summary>
+</member><member name="M:SystemInformation.MultimediaCodecs.CreateInstance">
+	<summary>
+ Create a global instance of this panel
+ </summary>&gt;
+
+</member><member name="M:SystemInformation.MultimediaCodecs.ResizePanel(System.Windows.Forms.Control)">
+	<summary>
+ Resize panel to fit containing control.
+ </summary>
+</member><member name="M:SystemInformation.Services.CreateInstance">
+	<summary>
+ Create a global instance of this panel
+ </summary>&gt;
+
+</member><member name="M:SystemInformation.Services.ResizePanel(System.Windows.Forms.Control)">
+	<summary>
+ Resize panel to fit containing control.
+ </summary>
+</member><member name="M:SystemInformation.Services.ListViewServices_ColumnClick(System.Object,System.Windows.Forms.ColumnClickEventArgs)">
+	<summary>
+ Set the ListViewItemSorter property to a new ListViewItemComparer 
+ object. Setting this property immediately sorts the 
+ ListView using the ListViewItemComparer object.
+ </summary>
+</member><member name="M:SystemInformation.Services.StartService">
+	<summary>
+ Start selected service.
+ </summary>
+</member><member name="M:SystemInformation.Services.StopService">
+	<summary>
+ Stop selected service.
+ </summary>
+</member><member name="M:SystemInformation.Services.PauseService">
+	<summary>
+ Pause selected service.
+ </summary>
+</member><member name="M:SystemInformation.Services.ContinueServices">
+	<summary>
+ Continue selected service.
+ </summary>
+</member><member name="M:SystemInformation.OperatingSystem.CreateInstance">
+	<summary>
+ Create a global instance of this panel
+ </summary>&gt;
+
+</member><member name="M:SystemInformation.OperatingSystem.ResizePanel(System.Windows.Forms.Control)">
+	<summary>
+ Resize panel to fit containing control.
+ </summary>
+</member><member name="M:SystemInformation.Shares.CreateInstance">
+	<summary>
+ Create a global instance of this panel
+ </summary>&gt;
+
+</member><member name="M:SystemInformation.Shares.ResizePanel(System.Windows.Forms.Control)">
+	<summary>
+ Resize panel to fit containing control.
+ </summary>
+</member><member name="M:SystemInformation.Shares.NewShare">
+	<summary>
+ Share selected folder.
+ </summary>
+</member><member name="M:SystemInformation.Shares.LoadShares">
+	<summary>
+ Loading informations from system management.
+ </summary>
+</member><member name="M:SystemInformation.Win32Network.CreateInstance">
+	<summary>
+ Create a global instance of this panel
+ </summary>&gt;
+
+</member><member name="M:SystemInformation.Win32Network.ResizePanel(System.Windows.Forms.Control)">
+	<summary>
+ Resize panel to fit containing control.
+ </summary>
+</member><member name="M:SystemInformation.Introduction.CreateInstance">
+	<summary>
+ Create a global instance of this panel
+ </summary>&gt;
+
+</member><member name="M:SystemInformation.Introduction.ResizePanel(System.Windows.Forms.Control)">
+	<summary>
+ Resize panel to fit containing control.
+ </summary>
+</member><member name="M:SystemInformation.Sound.CreateInstance">
+	<summary>
+ Create a global instance of this panel
+ </summary>&gt;
+
+</member><member name="M:SystemInformation.Sound.ResizePanel(System.Windows.Forms.Control)">
+	<summary>
+ Resize panel to fit containing control.
+ </summary>
+</member><member name="M:SystemInformation.Bios.CreateInstance">
+	<summary>
+ Create a global instance of this panel
+ </summary>&gt;
+
+</member><member name="M:SystemInformation.Bios.ResizePanel(System.Windows.Forms.Control)">
+	<summary>
+ Resize panel to fit containing control.
+ </summary>
+</member><member name="M:SystemInformation.Drivers.CreateInstance">
+	<summary>
+ Create a global instance of this panel
+ </summary>&gt;
+
+</member><member name="M:SystemInformation.Drivers.ResizePanel(System.Windows.Forms.Control)">
+	<summary>
+ Resize panel to fit containing control.
+ </summary>
+</member><member name="M:SystemInformation.Drivers.ListViewDrivers_ColumnClick(System.Object,System.Windows.Forms.ColumnClickEventArgs)">
+	<summary>
+ Set the ListViewItemSorter property to a new ListViewItemComparer 
+ object. Setting this property immediately sorts the 
+ ListView using the ListViewItemComparer object.
+ </summary>
+</member><member name="M:SystemInformation.Drivers.StartDriver">
+	<summary>
+ Start selected driver.
+ </summary>
+</member><member name="M:SystemInformation.Drivers.StopDriver">
+	<summary>
+ Stop selected driver.
+ </summary>
+</member><member name="M:SystemInformation.Drivers.PauseDriver">
+	<summary>
+ Pause selected driver.
+ </summary>
+</member><member name="M:SystemInformation.Drivers.ContinueDriver">
+	<summary>
+ Continue selected driver.
+ </summary>
+</member><member name="M:SystemInformation.Drivers.ListAllDrivers">
+	<summary>
+ List all drivers.
+ </summary>
+</member><member name="M:SystemInformation.Win32Storage.CreateInstance">
+	<summary>
+ Create a global instance of this panel
+ </summary>&gt;
+
+</member><member name="M:SystemInformation.Win32Storage.ResizePanel(System.Windows.Forms.Control)">
+	<summary>
+ Resize panel to fit containing control.
+ </summary>
+</member><member name="M:SystemInformation.InstalledPrograms.CreateInstance">
+	<summary>
+ Create a global instance of this panel
+ </summary>&gt;
+
+</member><member name="M:SystemInformation.InstalledPrograms.ResizePanel(System.Windows.Forms.Control)">
+	<summary>
+ Resize panel to fit containing control.
+ </summary>
+</member><member name="M:SystemInformation.InstalledPrograms.ListViewPrograms_ColumnClick(System.Object,System.Windows.Forms.ColumnClickEventArgs)">
+	<summary>
+ Set the ListViewItemSorter property to a new ListViewItemComparer 
+ object. Setting this property immediately sorts the 
+ ListView using the ListViewItemComparer object.
+ </summary>
+</member><member name="M:SystemInformation.InstalledPrograms.RefreshDisplay">
+	<summary>
+ Displays or refreshes the list of installed programs.
+ </summary>
+</member><member name="M:SystemInformation.InstalledPrograms.Uninstall(System.String)">
+	<summary>
+ Uninstalls a program using the UninstallString found in the registry.
+ This is stored along with the other information in the listview.
+ </summary>
+</member><member name="M:SystemInformation.InstalledPrograms.ReturnFileNameAndArguments(System.String)">
+	<summary>
+ Given the UninstallString from the registry, this method attempts to
+ separate the command from the arguments.
+ </summary>
+</member><member name="M:SystemInformation.InstalledPrograms.AddIcon(System.Drawing.Icon)">
+	<summary>
+ Adds a icon to both image lists.
+ </summary>
+	<param name="newIcon">Icon to be added.</param>
+</member><member name="M:SystemInformation.InstalledPrograms.AddGenericIcon">
+	<summary>
+ Adds a blank icon to both image lists.
+ </summary>
+</member><member name="M:SystemInformation.InstalledPrograms.SearchFolder(System.String,System.String,System.Boolean)">
+	<summary>
+ Search folder using search pattern. If icon is found, it is added to both image lists.
+ </summary>
+	<param name="folder">Folder to be searched.</param>
+	<param name="searchPattern">Matching pattern</param>
+	<param name="searchSubDirs">If true, subdirectories are also searched.</param>
+	<returns>Return true if icon is found.</returns>
+</member><member name="M:SystemInformation.StartupPrograms.CreateInstance">
+	<summary>
+ Create a global instance of this panel
+ </summary>&gt;
+
+</member><member name="M:SystemInformation.StartupPrograms.ResizePanel(System.Windows.Forms.Control)">
+	<summary>
+ Resize panel to fit containing control.
+ </summary>
+</member><member name="M:SystemInformation.StartupPrograms.ListViewStartup_ColumnClick(System.Object,System.Windows.Forms.ColumnClickEventArgs)">
+	<summary>
+ Set the ListViewItemSorter property to a new ListViewItemComparer 
+ object. Setting this property immediately sorts the 
+ ListView using the ListViewItemComparer object.
+ </summary>
+</member><member name="M:SystemInformation.StartupPrograms.AddStartUpProgram(System.String)">
+	<summary>
+ Adding new StartUp program to registry.
+ </summary>
+</member><member name="M:SystemInformation.StartupPrograms.DeleteStartUpProgram(System.String,System.String,System.String)">
+	<summary>
+ Deleting selected StartUp program from registry.
+ </summary>
+</member><member name="M:SystemInformation.Win32Memory.CreateInstance">
+	<summary>
+ Create a global instance of this panel
+ </summary>&gt;
+
+</member><member name="M:SystemInformation.Win32Memory.ResizePanel(System.Windows.Forms.Control)">
+	<summary>
+ Resize panel to fit containing control.
+ </summary>
+</member><member name="M:SystemInformation.Program.#cctor">
+	<summary>
+ Constructor of the MainForm.
+ </summary>
+</member><member name="M:SystemInformation.Program.CheckForDuplicateProcess(System.String)">
+	<summary>
+ Returns true if it finds more than one 'processName' running.
+ </summary>
+	<param name="processName">Name of process.</param>
+</member><member name="M:SystemInformation.Win32Users.CreateInstance">
+	<summary>
+ Create a global instance of this panel
+ </summary>&gt;
+
+</member><member name="M:SystemInformation.Win32Users.ResizePanel(System.Windows.Forms.Control)">
+	<summary>
+ Resize panel to fit containing control.
+ </summary>
+</member><member name="M:SystemInformation.Desktop.CreateInstance">
+	<summary>
+ Create a global instance of this panel
+ </summary>&gt;
+
+</member><member name="M:SystemInformation.Desktop.ResizePanel(System.Windows.Forms.Control)">
+	<summary>
+ Resize panel to fit containing control.
+ </summary>
+</member><member name="M:SystemInformation.MainForm.InternetConnection">
+	<summary>
+ Checks for internet connection.
+ </summary>
+</member><member name="P:SystemInformation.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:SystemInformation.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:SystemInformation.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:SystemInformation.Win32System.CreateInstance">
+	<summary>
+ Create a global instance of this panel
+ </summary>&gt;
+
+</member><member name="M:SystemInformation.Win32System.ResizePanel(System.Windows.Forms.Control)">
+	<summary>
+ Resize panel to fit containing control.
+ </summary>
+</member><member name="M:SystemInformation.EnvironmentVariables.CreateInstance">
+	<summary>
+ Create a global instance of this panel
+ </summary>&gt;
+
+</member><member name="M:SystemInformation.EnvironmentVariables.ResizePanel(System.Windows.Forms.Control)">
+	<summary>
+ Resize panel to fit containing control.
+ </summary>
+</member><member name="M:SystemInformation.PointingDevice.CreateInstance">
+	<summary>
+ Create a global instance of this panel
+ </summary>&gt;
+
+</member><member name="M:SystemInformation.PointingDevice.ResizePanel(System.Windows.Forms.Control)">
+	<summary>
+ Resize panel to fit containing control.
+ </summary>
+</member><member name="M:SystemInformation.ShortcutClass.#ctor(System.String)">
+	<summary>
+ linkPath: Path to new or existing shortcut file (.lnk).
+ </summary>
+</member><member name="P:SystemInformation.ShortcutClass.Arguments">
+	<summary>
+ Gets the argument list of the shortcut.
+ </summary>
+</member><member name="P:SystemInformation.ShortcutClass.Comment">
+	<summary>
+ Gets a the shortcut comment.
+ </summary>
+</member><member name="P:SystemInformation.ShortcutClass.WorkingDirectory">
+	<summary>
+ Gets the working directory of the shortcut.
+ </summary>
+</member><member name="P:SystemInformation.ShortcutClass.Path">
+	<summary>
+ Gets the target path of the shortcut.
+ </summary>
+</member><member name="P:SystemInformation.ShortcutClass.IconLocation">
+	<summary>
+ Gets the path of the Icon assigned to the shortcut.
+ </summary>
+</member><member name="P:SystemInformation.ShortcutClass.IconIndex">
+	<summary>
+ Gets the index of the Icon assigned to the shortcut.
+ </summary>
+	<remarks>
+ Set to zero when the IconLocation property specifies a .ICO file.
+ </remarks>
+</member><member name="P:SystemInformation.ShortcutClass.Icon">
+	<summary>
+ Retrieves the Icon of the shortcut as it will appear in Explorer.
+ Use the IconPath and IconIndex properties to change it.
+ </summary>
+</member><member name="T:SystemInformation.SLGP_FLAGS">
+	<suumary>
+ IShellLink.GetPath fFlags
+ </suumary>
+</member><member name="M:SystemInformation.SpecialFolders.CreateInstance">
+	<summary>
+ Create a global instance of this panel
+ </summary>&gt;
+
+</member><member name="M:SystemInformation.SpecialFolders.ResizePanel(System.Windows.Forms.Control)">
+	<summary>
+ Resize panel to fit containing control.
+ </summary>
+</member><member name="M:SystemInformation.Drives.CreateInstance">
+	<summary>
+ Create a global instance of this panel
+ </summary>&gt;
+
+</member><member name="M:SystemInformation.Drives.ResizePanel(System.Windows.Forms.Control)">
+	<summary>
+ Resize panel to fit containing control.
+ </summary>
+</member><member name="M:SystemInformation.Drives.ReturnImageIndex(System.String)">
+	<summary>
+ Returns an integer that identifies the drive image in the image list.
+ </summary>
+</member><member name="M:SystemInformation.Processes.CreateInstance">
+	<summary>
+ Create a global instance of this panel
+ </summary>&gt;
+
+</member><member name="M:SystemInformation.Processes.ResizePanel(System.Windows.Forms.Control)">
+	<summary>
+ Resize panel to fit containing control.
+ </summary>
+</member><member name="M:SystemInformation.Processes.ListViewProcesses_ColumnClick(System.Object,System.Windows.Forms.ColumnClickEventArgs)">
+	<summary>
+ Set the ListViewItemSorter property to a new ListViewItemComparer 
+ object. Setting this property immediately sorts the 
+ ListView using the ListViewItemComparer object.
+ </summary>
+</member><member name="M:SystemInformation.DateAndTime.ResizePanel(System.Windows.Forms.Control)">
+	<summary>
+ Resize panel to fit containing control.
+ </summary>
+</member><member name="M:SystemInformation.Video.CreateInstance">
+	<summary>
+ Create a global instance of this panel
+ </summary>&gt;
+
+</member><member name="M:SystemInformation.Video.ResizePanel(System.Windows.Forms.Control)">
+	<summary>
+ Resize panel to fit containing control.
+ </summary>
+</member><member name="M:SystemInformation.Computer.CreateInstance">
+	<summary>
+ Create a global instance of this panel
+ </summary>&gt;
+
+</member><member name="M:SystemInformation.Computer.ResizePanel(System.Windows.Forms.Control)">
+	<summary>
+ Resize panel to fit containing control.
+ </summary>
+</member><member name="M:SystemInformation.EventViewer.CreateInstance">
+	<summary>
+ Create a global instance of this panel
+ </summary>&gt;
+
+</member><member name="M:SystemInformation.EventViewer.ResizePanel(System.Windows.Forms.Control)">
+	<summary>
+ Resize panel to fit containing control.
+ </summary>
+</member><member name="M:SystemInformation.EventViewer.ReturnTotalEntries(System.String)">
+	<summary>
+ Loading general informations about events.
+ </summary>
+</member><member name="M:SystemInformation.EventViewer.LoadEvents(System.String)">
+	<summary>
+ Load all events.
+ </summary>
+</member><member name="M:SystemInformation.Ports.CreateInstance">
+	<summary>
+ Create a global instance of this panel
+ </summary>&gt;
+
+</member><member name="M:SystemInformation.Ports.ResizePanel(System.Windows.Forms.Control)">
+	<summary>
+ Resize panel to fit containing control.
+ </summary>
+</member><member name="M:SystemInformation.ManagementInfo.SplitUppercaseToString(System.String)">
+	<summary>
+ Parses a camel cased or pascal cased string and returns a new
+ string with spaces between the words in the string.
+ </summary>
+	<example>
+ The string "PascalCasing" will return an array with two
+ elements, "Pascal" and "Casing".
+ </example>
+</member><member name="M:SystemInformation.ManagementInfo.SplitUppercase(System.String)">
+	<summary>
+ Parses a camel cased or pascal cased string and returns an array
+ of the words within the string.
+ </summary>
+	<example>
+ The string "PascalCasing" will return an array with two
+ elements, "Pascal" and "Casing".
+ </example>
+</member><member name="M:SystemInformation.ManagementInfo.ManagementInfoToListView(System.String,System.Windows.Forms.ListView@,System.Boolean,System.Int32,System.Int32)">
+	<summary>
+ Adds formatted Management information to a listview given the class name.
+ </summary>
+	<param name="win32Class">Name of System.Management Win32 Class</param>
+	<param name="listView">Name of ListView</param>
+	<param name="skipEmptyValues">If true empty values are not displayed.</param>
+	<param name="firstColumnHeaderWidth">Width of "Name" ListView column</param>
+	<param name="secondColumnHeaderWidth">Width of "Value" ListView column</param>
+</member><member name="M:SystemInformation.ManagementInfo.ManagementInfoToListView(System.String,System.Windows.Forms.ListView@,System.Boolean,System.Int32,System.Int32,System.Windows.Forms.ToolStripProgressBar@)">
+	<summary>
+ Adds formatted Management information to a listview given the class name.
+ This overload adds support for a tool strip progress bar.
+ </summary>
+	<param name="win32Class">Name of System.Management Win32 Class</param>
+	<param name="listView">Name of ListView</param>
+	<param name="skipEmptyValues">If true empty values are not displayed.</param>
+	<param name="firstColumnHeaderWidth">Width of "Name" ListView column</param>
+	<param name="secondColumnHeaderWidth">Width of "Value" ListView column</param>
+	<param name="progressBar">Name of ProgressBar</param>
+</member><member name="M:SystemInformation.ManagementInfo.Cancel">
+	<summary>
+ Cancels a WMI information gathering method at the end of the next iteration.
+ </summary>
+</member><member name="M:SystemInformation.ManagementInfo.AddGroupForNoResults(System.Windows.Forms.ListView@)">
+	<summary>
+ Adds a group and item to a listview when a Win32 class search returns no results.
+ The text of the group will be "Returned" and the text of the item will be "No Results Returned."
+ </summary>
+	<param name="referenceListView">Referenced ListView</param>
+</member><member name="M:SystemInformation.ManagementInfo.AddGroupForNoResults(System.Windows.Forms.ListView@,System.String,System.String)">
+	<summary>
+ Adds a group and item to a listview when a Win32 class search returns no results.
+ The text of the group will be groupName and the text of the item will be message.
+ </summary>
+	<param name="referenceListView">Referenced ListView</param>
+	<param name="groupName">Text for Group</param>
+	<param name="message">Text for ListViewItem</param>
+</member><member name="M:SystemInformation.ManagementInfo.ResizeListViewColumns(System.Windows.Forms.ListView@,System.Windows.Forms.ColumnHeaderAutoResizeStyle)">
+	<summary>
+ Auto resizes ListView columns.
+ This overload provides the option to hide one column by setting its width to 0.
+ </summary>
+	<param name="referenceListView">The referenced ListView</param>
+	<param name="resizeStyle">The Windows ColumnHeaderAutoResizeStyle</param>
+	<remarks></remarks>
+</member><member name="M:SystemInformation.ManagementInfo.ResizeListViewColumns(System.Windows.Forms.ListView@,System.Windows.Forms.ColumnHeaderAutoResizeStyle,System.Int32)">
+	<summary>
+ Auto resizes ListView columns.
+ This overload provides the option to hide one column by setting its width to 0.
+ </summary>
+	<param name="referenceListView">The referenced ListView</param>
+	<param name="resizeStyle">The Windows ColumnHeaderAutoResizeStyle</param>
+	<param name="hideColumn">The column index to hide</param>
+	<remarks></remarks>
+</member><member name="M:SystemInformation.UserInformation.CreateInstance">
+	<summary>
+ Create a global instance of this panel
+ </summary>&gt;
+
+</member><member name="M:SystemInformation.UserInformation.ResizePanel(System.Windows.Forms.Control)">
+	<summary>
+ Resize panel to fit containing control.
+ </summary>
+</member><member name="M:SystemInformation.ComputerInformation.Initialize(SystemInformation.Initializer)">
+	<summary>
+ Initialize according to property setting.
+ </summary>
+</member><member name="M:SystemInformation.ComputerInformation.GetFrameworkVersion">
+	<summary>
+ Queries the Registry and returns the highest .NET Framework version found or 0 if none is found.
+ </summary>
+	<returns>A double indicating the major and minor version of the .NET Framework.</returns>
+	<remarks>
+ This code is confirmed for versions 1.1, 2.0, 3.0 and 3.5. Later versions are simply educated guesses.
+ Hopefully beginning with version 3.5, Microsoft will assign the versioning task away from the
+ marketing department and this mess will not be necessary.
+ </remarks>
+</member><member name="M:SystemInformation.ComputerInformation.GetOSProductKey">
+	<summary>
+ Read the value of:
+ HKLM\SOFTWARE\MICROSOFT\Windows NT\CurrentVersion\DigitalProductId
+ and decode the Windows CD Key.
+ </summary>
+	<returns>
+ Returns the Windows CD Key if successful.
+ Returns "Unknown" upon failure.
+ </returns>
+</member><member name="M:SystemInformation.ComputerInformation.GetWeekNumber(System.DateTime)">
+	<summary>
+ Description:this function will accept any date as the only parameter and will 
+ return you the week number the supplied date lies into.
+ </summary>&gt;
+ <param name="inDate">Date for which the week number is desired.</param>
+	<returns>
+ Return the week number as an integer.
+ </returns>
+</member><member name="P:SystemInformation.ComputerInformation.AppBuild">
+	<summary>
+ Application Build
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.AppCompanyName">
+	<summary>
+ Application Company (Manufacturer)
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.AppCopyright">
+	<summary>
+ Application Copyright
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.AppDescription">
+	<summary>
+ Application Copyright
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.AppMajorRevision">
+	<summary>
+ Application Major Revision
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.AppMajorVersion">
+	<summary>
+ Application Major Version
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.AppMinorRevision">
+	<summary>
+ Application Minor Revision
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.AppMinorVersion">
+	<summary>
+ Application Minor Version
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.AppProductName">
+	<summary>
+ Application Product Name
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.AppRevision">
+	<summary>
+ Application Revision
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.AppShortVersion">
+	<summary>
+ Application Major and Minor Version Separated by a Decimal
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.AppTitle">
+	<summary>
+ Application Title
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.AppTrademark">
+	<summary>
+ Application Trademark
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.AppVersion">
+	<summary>
+ Application Version
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.AppDirectory">
+	<summary>
+ Application Version
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.BiosManufacturer">
+	<summary>
+ BIOS Manufacturer
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.BiosName">
+	<summary>
+ BIOS Name
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.BiosVersion">
+	<summary>
+ BIOS Version
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.BiosReleaseDate">
+	<summary>
+ BIOS Release Date
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.BiosFeatures">
+	<summary>
+ BIOS Features
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.BiosSMBiosPresent">
+	<summary>
+ SMBIOS Present
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.BiosSMBiosVersion">
+	<summary>
+ SMBIOS Version
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.CDDrive">
+	<summary>
+ CD Drive
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.CDManufacturer">
+	<summary>
+ CD Drive Manufacturer
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.CDModel">
+	<summary>
+ CD Drive Model
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.CDMediaSize">
+	<summary>
+ CD Drive Media Size
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.CDRevisionLevel">
+	<summary>
+ CD Drive Revision Level
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.CDStatus">
+	<summary>
+ CD Drive Status
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.CompAutomaticResetCapability">
+	<summary>
+ Computer Has Automatic Reset Capability
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.CompDescription">
+	<summary>
+ Computer Description
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.CompManufacturer">
+	<summary>
+ Computer Manufacturer
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.CompModel">
+	<summary>
+ Computer Model
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.CompSystemType">
+	<summary>
+ Computer System Type
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.CpuNumberOfProcessors">
+	<summary>
+ Number of Processors
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.CpuNumberOfCores">
+	<summary>
+ Number of Cores
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.CpuNumberOfLogicalProcessors">
+	<summary>
+ Number of Logical Processors
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.CpuAddressWidth">
+	<summary>
+ CPU Address Width
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.CpuDescription">
+	<summary>
+ CPU Description
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.CpuFrontSideBusSpeed">
+	<summary>
+ CPU Front Side Bus (FSB) Speed
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.CpuL2CacheSize">
+	<summary>
+ CPU Level 2 Cache Size
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.CpuL2CacheSpeed">
+	<summary>
+ CPU Level 2 Cache Speed
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.CpuLoadPercentage">
+	<summary>
+ CPU Load Percentage
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.CpuManufacturer">
+	<summary>
+ CPU Manufacturer
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.CpuName">
+	<summary>
+ CPU Name
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.CpuSocket">
+	<summary>
+ CPU Socket
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.CpuSpeed">
+	<summary>
+ CPU Speed
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.CpuPowerManagementSupported">
+	<summary>
+ CPU Power Management Supported
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.CpuPowerManagementCapabilities">
+	<summary>
+ CPU Power Management Capabilities
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.CpuProcessorId">
+	<summary>
+ CPU Processor ID
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.DriveCapacity">
+	<summary>
+ Drive Capacity
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.DriveInterface">
+	<summary>
+ Drive Interface
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.DriveModelNo">
+	<summary>
+ Drive Model Number
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.MainBoardManufacturer">
+	<summary>
+ Mainboard (or Chipset) Manufacturer
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.MainBoardModel">
+	<summary>
+ Mainboard (or Chipset) Model
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.MemoryAvailVirtual">
+	<summary>
+ Available Virtual Memory
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.MemoryAvailPhysical">
+	<summary>
+ Available Physical Memory
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.MemoryTotalVirtual">
+	<summary>
+ Total Virtual Memory
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.MemoryTotalPhysical">
+	<summary>
+ Total Physical Memory
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.ClrVersion">
+	<summary>
+ CLR Version
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.ClrMajorVersion">
+	<summary>
+ CLR Major Version
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.FrameworkMinorVersion">
+	<summary>
+ .NET Framwork Minor Version
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.ClrServicePack">
+	<summary>
+ CLR Service Pack
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.ClrShortVersion">
+	<summary>
+ CLR Major and Minor Version Separated by a Decimal
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.NetFrameworkVersion">
+	<summary>
+ .NET Framework Major and Minor Version Separated by a Decimal
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.NetAdapterType">
+	<summary>
+ Network Interface Type
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.NetAutoSense">
+	<summary>
+ Network Interface Auto Sense Capability
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.NetMacAddress">
+	<summary>
+ Network Interface Media Access Control (MAC) Address
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.NetManufacturer">
+	<summary>
+ Network Interface Manufacturer
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.NetMaxSpeed">
+	<summary>
+ Network Interface Maximum Speed
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.NetConnectionId">
+	<summary>
+ Network Interface Connection ID
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.NetConnectionStatus">
+	<summary>
+ Network Interface Connection Status
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.NetIPEnabled">
+	<summary>
+ Network Interface Internet Protocol (IP) Enabled Status
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.NetNumberOfAdapters">
+	<summary>
+ Number of Network Interfaces
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.NetProductName">
+	<summary>
+ Network Interface Product Name
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.NetSpeed">
+	<summary>
+ Network Interface Speed
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.NetDefaultTimeToLive">
+	<summary>
+ Network Interface Default Time-To-Live (TTL)
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.NetDhcpEnabled">
+	<summary>
+ Network Interface Dynamic Host Configuration Protocol (DHCP) Enabled Status
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.NetDhcpLeaseObtained">
+	<summary>
+ Date Network Interface Dynamic Host Configuration Protocol (DHCP) Lease Obtained
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.NetDhcpLeaseExpires">
+	<summary>
+ Network Interface Date Network Interface Dynamic Host Configuration Protocol (DHCP) Lease Expires
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.NetDhcpServer">
+	<summary>
+ Network Interface Date Network Interface Dynamic Host Configuration Protocol (DHCP) Server
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.NetMaximumTransmissionUnit">
+	<summary>
+ Network Interface Maximum Transmission Unit (MTU)
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.NetTcpNumberConnections">
+	<summary>
+ Number of Network Interface Transmission Control Protocol (TCP) Connections
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.NetTcpWindowSize">
+	<summary>
+ Network Interface Transmission Control Protocol (TCP) Window Size
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.NetIPAddress">
+	<summary>
+ Network Interface Internet Protocol (IP) Address
+ </summary>
+	<remarks>
+ Modified to show all IP addresses including IPv6.
+ </remarks>
+</member><member name="P:SystemInformation.ComputerInformation.NetDomain">
+	<summary>
+ Network Interface Network Domain
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.NetHostName">
+	<summary>
+ Network Interface Network Host Name
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.OSCodename">
+	<summary>
+ Operating System Code Name
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.OSBuild">
+	<summary>
+ Build
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.OSMachineName">
+	<summary>
+ Machine Name
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.OSVersion">
+	<summary>
+ Operating System Version
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.OSFullName">
+	<summary>
+ Operating System Full Name
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.OSPlatform">
+	<summary>
+ Operating System Platform
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.OSMinorVersion">
+	<summary>
+ Operating System Minor Version
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.OSMajorVersion">
+	<summary>
+ Operating System Major Version
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.OSServicePack">
+	<summary>
+ Operating System Service Pack
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.OSUserName">
+	<summary>
+ Logon User Name
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.OSProductKey">
+	<summary>
+ OS Product Key
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.OSProductId">
+	<summary>
+ Microsoft's Numeric Product ID
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.OSType">
+	<summary>
+ Type of build, ie. checked/free and single/multi processor
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.OSShortVersion">
+	<summary>
+ Operating System Major and Minor Version Separated by a Decimal
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.OSUptime">
+	<summary>
+ Formatted Time Since Last Start
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.OSStartTime">
+	<summary>
+ Date/Time of Last System Start as Date
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.OSBootUpstate">
+	<summary>
+ Operating System Bootup State
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.OSDomain">
+	<summary>
+ Operating System Domain
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.OSPartOfDomain">
+	<summary>
+ Operating System Part of Domain
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.OSInstallDate">
+	<summary>
+ Operating System Installation Date
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.OperatingSystemIs64Bit">
+	<summary>
+ Returns True if Operating System 64-Bit Version Installed.
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.ServiceDisplayName">
+	<summary>
+ Display Name for service
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.ServiceDescription">
+	<summary>
+ Description of service
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:SystemInformation.ComputerInformation.ServiceStartMode">
+	<summary>
+ Start mode of service
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.ServiceState">
+	<summary>
+ State of service
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.ServiceStatus">
+	<summary>
+ Status of Service
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.ServicePathName">
+	<summary>
+ Path name for service
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.SoundController">
+	<summary>
+ Sound Controller Name
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.SoundManufacturer">
+	<summary>
+ Sound Controller Manufacturer
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.SoundDmaBufferSize">
+	<summary>
+ Sound Controller DMA Buffer Size
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.SoundNumberOfControllers">
+	<summary>
+ Number of Sound Controllers
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.TimeCurrentTimeZone">
+	<summary>
+ Current Time Zone
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.TimeDaylightSavingsInEffect">
+	<summary>
+ Daylight Savings in Effect
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.TimeDaylightSavingsName">
+	<summary>
+ Daylight Savings Name
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.TimeDaylightSavingsOffset">
+	<summary>
+ Daylight Savings Offset
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.TimeLocalDaylightEndDate">
+	<summary>
+ (Date) Local Daylight Saving End Date
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.TimeLocalDaylightEndTime">
+	<summary>
+ (Date) Local Daylight Saving End Time
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.TimeLocalDaylightStartDate">
+	<summary>
+ (Date) Local Daylight Saving Start Date
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.TimeLocalDaylightStartTime">
+	<summary>
+ (Date) Local Daylight Saving Start Time
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.TimeLocalDateTime">
+	<summary>
+ (Date) Local Date and Time
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.TimeUniversalDateTime">
+	<summary>
+ (Date) Universal Date and Time
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.TimeUniversalDaylightEndDate">
+	<summary>
+ (Date) Universal Daylight Saving End Date
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.TimeUniversalDaylightEndTime">
+	<summary>
+ (Date) Universal Daylight Saving End Time
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.TimeUniversalDaylightStartDate">
+	<summary>
+ (Date) Universal Daylight Saving Start Date
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.TimeUniversalDaylightStartTime">
+	<summary>
+ (Date) Universal Daylight Saving Start Time
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.TimeUniversalTimeOffset">
+	<summary>
+ Universal Time Offset
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.UserIsAdministrator">
+	<summary>
+ Administrator Status of Current User
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.UserRegisteredName">
+	<summary>
+ Registered Name
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.UserRegisteredOrganization">
+	<summary>
+ Registered Organization
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.UserRegisteredNameWow6432Node">
+	<summary>
+ Registered User (Wow6432Node)
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.UserRegisteredOrganizationWow6432Node">
+	<summary>
+ Registered Organization (Wow6432Node)
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.UserAccountRights">
+	<summary>
+ User Account Flags
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.UserAccounts">
+	<summary>
+ Collection of User Accounts on This Computer
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.UserFullName">
+	<summary>
+ User Full Name
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.UserPrivilege">
+	<summary>
+ User Privilege
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.VideoController">
+	<summary>
+ Installed Video Controllers
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.VideoPrimaryScreenDimensions">
+	<summary>
+ Primary Screen Dimensions
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.VideoPrimaryScreenWorkingArea">
+	<summary>
+ Primary Screen Working Area
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.VideoSecondaryScreenDimensions">
+	<summary>
+ Secondary Screen Dimensions
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.VideoSecondaryScreenWorkingArea">
+	<summary>
+ Secondary Screen Working Area
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.VideoTertiaryScreenDimensions">
+	<summary>
+ Tertiary Screen Dimensions
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.VideoTertiaryScreenWorkingArea">
+	<summary>
+ Tertiary Screen Working Area
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.VideoQuaternaryScreenDimensions">
+	<summary>
+ Quaternary Screen Dimensions
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.VideoQuaternaryScreenWorkingArea">
+	<summary>
+ Quaternary Screen Working Area
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.VideoNumberOfControllers">
+	<summary>
+ Number of Video Controllers
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.VideoRam">
+	<summary>
+ Video Controllers RAM
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.VideoRefreshRate">
+	<summary>
+ Video Controllers Refresh Rate
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.VideoScreenColors">
+	<summary>
+ Video Controllers Colors
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.VisualStyleAuthor">
+	<summary>
+ Visual Style Author
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.VisualStyleColorScheme">
+	<summary>
+ Visual Style ColorScheme
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.VisualStyleCompany">
+	<summary>
+ Visual Style Company
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.VisualStyleControlHighlightHot">
+	<summary>
+ (Drawing.Color) Visual Style Control Highlight Hot
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.VisualStyleCopyright">
+	<summary>
+ Visual Style Copyright
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.VisualStyleDescription">
+	<summary>
+ Visual Style Description
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.VisualStyleDisplayName">
+	<summary>
+ Visual Style Display Name
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.VisualStyleIsEnabledByUser">
+	<summary>
+ Visual Style Enabled by User
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.VisualStyleIsSupportedByOS">
+	<summary>
+ Visual Style Supported by Operating System
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.VisualStyleMinimumColorDepth">
+	<summary>
+ Visual Style Minimum Color Depth
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.VisualStyleSize">
+	<summary>
+ Visual Style Size
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.VisualStyleSupportsFlatMenus">
+	<summary>
+ Visual Style Supports Flat Menus
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.VisualStyleTextControlBorder">
+	<summary>
+ (Drawing.Color) Visual Style Text Control Border
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.VisualStyleUrl">
+	<summary>
+ Visual Style URL
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.VisualStyleVersion">
+	<summary>
+ Visual Style Version
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.VolumeLetter">
+	<summary>
+ Volume Letters
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.VolumeType">
+	<summary>
+ Volume Types
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.VolumeFileSystem">
+	<summary>
+ Volume File Systems
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.VolumeReady">
+	<summary>
+ Volume Ready Status
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.VolumeLabel">
+	<summary>
+ Volume Label
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.VolumeTotalSize">
+	<summary>
+ Volume Total Size
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.VolumeFreeSpace">
+	<summary>
+ Volume Free Space
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.VolumeUsedSpace">
+	<summary>
+ Volume Used Space
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.VolumePercentFreeSpace">
+	<summary>
+ Volume Percent Free Space
+ </summary>
+</member><member name="P:SystemInformation.ComputerInformation.VolumeSerialNumber">
+	<summary>
+ Volume Serial Number
+ </summary>
+</member><member name="F:SystemInformation.SplashScreen.singeltonSplashScreen">
+	<summary>
+ Contains a singelton Shared splashscreen (runs in its own thread).
+ </summary>
+</member><member name="F:SystemInformation.SplashScreen.splashScreenCreatedEvent">
+	<summary>
+ Indicates that the splasscreen is created.
+ </summary>
+</member><member name="M:SystemInformation.SplashScreen.#ctor">
+	<summary>
+ Constructor of the Splasscreen.
+ </summary>
+</member><member name="M:SystemInformation.SplashScreen.StartSplashScreen">
+	<summary>
+ Starts a new thread that runs the splasscreen.
+ </summary>
+</member><member name="M:SystemInformation.SplashScreen.StartSplashScreenMethod(System.Object)">
+	<summary>
+ Is the actual splashscreen method on a separate thread.
+ </summary>
+</member><member name="M:SystemInformation.SplashScreen.SetSplashScreenState(System.String)">
+	<summary>
+ Changes the state of the splasscreen.
+ </summary>
+	<param name="state"></param>
+</member><member name="M:SystemInformation.SplashScreen.SetSplashScreenStateMethod(System.String)">
+	<summary>
+ The private method called by SetSplasScreenState that actually changes the state.
+ </summary>
+</member><member name="M:SystemInformation.SplashScreen.StopSplashScreen">
+	<summary>
+ Stops the splasscreen.
+ </summary>
+</member><member name="M:SystemInformation.SplashScreen.StopSplashScreenMethod(System.String)">
+	<summary>
+ Stops the actual splashscreen.
+ </summary>
+	<param name="state"></param>
+</member><member name="M:SystemInformation.SplashScreen.OnLoad(System.EventArgs)">
+	<summary>
+ Handles the OnLoad of the splashscreen. When this is called the window and its handle exists.
+ </summary>
+</member><member name="T:SystemInformation.SplashScreen.ChangeSplashScreenDelegate">
+	<summary>
+ Defines the delegate used to communicate with the splasscreen via BeginInvoke.
+ </summary>
+</member><member name="M:SystemInformation.SplashScreen.GetFrameworkShortVersion">
+	<summary>
+ Framework short version, ie: 2.0
+ </summary>
+	<returns> Returns a string with the version number, if there is an error an
+ empty string is returned. </returns>
+</member><member name="M:SystemInformation.SplashScreen.GetFrameworkServicePack">
+	<summary>
+ A special section of the registry has to be querried to find out the service pack
+ of the .NET Framework. A different location was used for 1.0 and 1.1, but since this
+ application only runs on version 2.0, we won't worry about that.
+ </summary>
+	<returns> A string containing the version number, for example: "2.0" </returns>
+</member><member name="M:SystemInformation.SplashScreen.ReturnHighestFrameworkVersion">
+	<summary>
+ Queries the Registry and returns the highest .NET Framework version found or 0 if none is found.
+ </summary>
+	<returns>A double indicating the major and minor version of the .NET Framework.</returns>
+	<remarks>
+ This code is confirmed for versions 1.1, 2.0, 3.0 and 3.5. Later versions are simply educated guesses.
+ Hopefully beginning with version 3.5, Microsoft will assign the versioning task away from the
+ marketing department and this mess will not be necessary.
+ </remarks>
+</member><member name="M:SystemInformation.OemInformation.CreateInstance">
+	<summary>
+ Create a global instance of this panel
+ </summary>&gt;
+
+</member><member name="M:SystemInformation.OemInformation.ResizePanel(System.Windows.Forms.Control)">
+	<summary>
+ Resize panel to fit containing control.
+ </summary>
+</member><member name="M:SystemInformation.Network.CreateInstance">
+	<summary>
+ Create a global instance of this panel
+ </summary>&gt;
+
+</member><member name="M:SystemInformation.Network.ResizePanel(System.Windows.Forms.Control)">
+	<summary>
+ Resize panel to fit containing control.
+ </summary>
+</member><member name="M:SystemInformation.Network.NetworkConnections">
+	<summary>
+ Loading informations about network connections.
+ </summary>
+</member><member name="M:SystemInformation.Network.GeneralNetworkInfo">
+	<summary>
+ Loading general network informations.
+ </summary>
+</member><member name="M:SystemInformation.Network.POTSModemManagement">
+	<summary>
+ Loading informations from management.
+ </summary>
+</member><member name="M:SystemInformation.Network.GetNetworkAdapterInfo">
+	<summary>
+ Loading informations from management.
+ </summary>
+</member><member name="M:SystemInformation.Network.LanConnection">
+	<summary>
+ Checks for lan connection.
+ </summary>
+</member><member name="M:SystemInformation.Network.ModemConnection">
+	<summary>
+ Checks for modem connection.
+ </summary>
+</member><member name="M:SystemInformation.Network.InternetConnection">
+	<summary>
+ Checks for internet connection.
+ </summary>
+</member><member name="M:SystemInformation.Network.ProxyConnection">
+	<summary>
+ Checks for proxy connection.
+ </summary>
+</member><member name="M:SystemInformation.Network.RasInstalled">
+	<summary>
+ Checks for remote access services.
+ </summary>
+</member><member name="M:SystemInformation.Network.GetIpAddressList(System.String)">
+	<summary>
+ Returns all local IP addresses, both V4 and V6 as a string array.
+ </summary>
+</member><member name="M:SystemInformation.Network.FormatIPv6Address(System.String)">
+	<summary>
+ Formats an IPv6 address by converting to upper case, if necessary.
+ Also removes "%" and extraneous number from Net.Dns.GetHostEntry.AddressList.
+ </summary>
+</member>
+</members>
+</doc>

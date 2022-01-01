@@ -1,0 +1,154 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ColorPicker
+</name>
+</assembly>
+<members>
+<member name="T:VirtualSoftware.ColorPickerAppearance">
+	<summary>
+ Defines the appearance of the control.
+ </summary>
+</member><member name="P:VirtualSoftware.ColorPicker.Color">
+	<summary>
+ The currently selected color.
+ </summary>
+</member><member name="P:VirtualSoftware.ColorPicker.TextDisplayed">
+	<summary>
+ True means the control displays the currently selected color's name, False otherwise.
+ </summary>
+</member><member name="P:VirtualSoftware.ColorPicker.Appearance">
+	<summary>
+ Sets or returns the appearance of the control.
+ </summary>
+</member><member name="P:VirtualSoftware.ColorPicker.DisplayAdapter">
+	<summary>
+ Associates the IDropDownDisplayAdapter implementation with the control.
+ </summary>
+</member><member name="P:VirtualSoftware.ColorPicker.TabStop">
+	<summary>
+ We've shadowed the TabStop property, because we don't want the control to be tabbed to directly.
+ Instead, the adaptedControl control is used to interact with the user, so we delegate to it.
+ </summary>
+</member><member name="P:VirtualSoftware.ColorPicker.ForeColor">
+	<summary>
+ No need to display ForeColor and BackColor and Text in the property browser.
+ </summary>
+</member><member name="P:VirtualSoftware.ColorPicker.BackColor">
+	<summary>
+ No need to display ForeColor and BackColor and Text in the property browser.
+ </summary>
+</member><member name="P:VirtualSoftware.ColorPicker.Text">
+	<summary>
+ No need to display ForeColor and BackColor and Text in the property browser.
+ </summary>
+</member><member name="M:VirtualSoftware.ColorPicker.GetInvertedColor(System.Drawing.Color)">
+	<summary>
+ Primitive color inversion.
+ </summary>
+</member><member name="P:VirtualSoftware.ColorPicker.ColorTypeConverter">
+	<summary>
+ Shortcut to the system-provided Color type converter.
+ </summary>
+</member><member name="M:VirtualSoftware.ColorPicker.SetColor(System.Drawing.Color)">
+	<summary>
+ Sets the associated CheckBox color and Text according to the TextDisplayed property value.
+ </summary>
+</member><member name="M:VirtualSoftware.ColorPicker.OnDropDownAppearanceChanged(System.Object,System.EventArgs)">
+	<summary>
+ If the associated display is dropped down, we'll display the drop-down UI. Otherwise we'll close it.
+ </summary>
+</member><member name="M:VirtualSoftware.ColorPicker.OnEnter(System.EventArgs)">
+	<summary>
+ Invalidate the display so it shows the focus rectangle.
+ </summary>
+</member><member name="M:VirtualSoftware.ColorPicker.OnLeave(System.EventArgs)">
+	<summary>
+ Invalidate the display so it doesn't show the focus rectangle.
+ </summary>
+</member><member name="T:VirtualSoftware.WindowsFormsEditorService">
+	<summary>
+ This class actually hosts the ColorEditor.ColorUI control instance by implementing the 
+ IWindowsFormsEditorService interface.
+ </summary>
+</member><member name="M:VirtualSoftware.SafeNativeMethods.MsgWaitForMultipleObjects(System.Int32,System.IntPtr,System.Int16,System.Int32,System.Int32)">
+	<summary>
+ Don't forget (as I did:-) to declare the DllImport methods as Shared!
+ Otherwise you'll get an exception *at runtime*!
+ </summary>
+</member><member name="T:VirtualSoftware.CheckBoxDisplayAdapter">
+	<summary>
+ Implements the IDropDownDisplayAdapter by using the standard CheckBox
+ as the adaptedControl control.
+ </summary>
+</member><member name="P:VirtualSoftware.IDropDownDisplayAdapter.Color">
+	<summary>
+ The current color. The ColorPicker doesn't store the color value itself; it uses
+ this property exposed by the adapter class (2nd task from the article).
+ </summary>
+</member><member name="P:VirtualSoftware.IDropDownDisplayAdapter.Text">
+	<summary>
+ The text that the adapter should display. ColorPicker sets the text to the current color
+ name or to an empty string, if the ColorPicker.TextDisplayed property is set to False.
+ (3rd task from the article)
+ </summary>
+</member><member name="P:VirtualSoftware.IDropDownDisplayAdapter.HasDropDownAppearance">
+	<summary>
+ This property and event allows the ColorPicker to interrogate and control 
+ the appearance of the adapter (i.e. dropped-down, or "normal").
+ (4th task from the article)
+ </summary>
+</member><member name="P:VirtualSoftware.IDropDownDisplayAdapter.AdaptedControl">
+	<summary>
+ This is the actual adapted control. We've deliberately chosen to "unhide" this aspect
+ of the adapter pattern (that is, the fact that the adaptedControl itself must be a Control descendant), 
+ because it simplified the implementation and seemed to be "natural" in this particular context.
+ (1st task from the article and additional services not mentioned in the article - search
+ through the code for ".AdaptedControl" to learn about the various way this property is used).
+ </summary>
+</member><member name="T:VirtualSoftware.IDropDownDisplayAdapter">
+	<summary>
+ Defines contract used by the ColorPicker control to use any other suitable control
+ for rendering its appearance and interacting with the user.
+ </summary>
+</member><member name="T:VirtualSoftware.ComboBoxDisplayAdapter">
+	<summary>
+ Implements the IDropDownDisplayAdapter by using the ComboBoxDisplay
+ as the adaptedControl control.
+ </summary>
+</member><member name="F:VirtualSoftware.EditableComboBoxDisplay._TextBox">
+	<summary>
+ Our private TextBox descendant that displays the color name and 
+ processes some required keyboard events.
+ </summary>
+</member><member name="F:VirtualSoftware.EditableComboBoxDisplay._EnterKeyInTextBoxPressed">
+	<summary>
+ This flag avoids to handle user entered strings twice in the case the user presses the ENTER key.
+ </summary>
+</member><member name="M:VirtualSoftware.EditableComboBoxDisplay.GetDisplayLayout(System.Drawing.Rectangle@,System.Drawing.RectangleF@,System.Drawing.Rectangle@)">
+	<summary>
+ Shows/hides and positions the embedded TextBox control according to the current display settings.
+ </summary>
+</member><member name="M:VirtualSoftware.EditableComboBoxDisplay.OnKeyPress(System.Windows.Forms.KeyPressEventArgs)">
+	<summary>
+ If the user presses a character key while the focus is on the control, we shift
+ the focus to the embedded textbox.
+ </summary>
+</member><member name="T:VirtualSoftware.EditableComboBoxDisplay">
+	<summary>
+ Extends the ComboBoxDisplay control allowing the color name to be edited directly
+ by the user.
+ </summary>
+</member><member name="P:VirtualSoftware.ComboBoxDisplay.DownButtonWidth">
+	<summary>
+ This method is here for backward compatibility only. Use the DownButtonSize instead.
+ </summary>
+</member><member name="T:VirtualSoftware.ComboBoxDisplay">
+	<summary>
+ Implements a ComboBox-like appearance to be used with the ColorPicker control
+ be means of the ComboBoxDisplayAdapter.
+ </summary>
+</member>
+</members>
+</doc>
